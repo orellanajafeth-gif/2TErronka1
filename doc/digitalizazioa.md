@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Digitalizazioa
+permalink: /doc/digitalizazioa.html
 ---
 
 # 1. Digitalizazioa
