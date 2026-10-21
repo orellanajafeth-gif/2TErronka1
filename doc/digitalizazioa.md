@@ -1,3 +1,6 @@
+---
+---
+
 # 1. Digitalizazioa
 
 Digitalizazioa prozesu, produktu eta zerbitzu tradizionalak teknologia digitalak erabiliz eraldatzea da. Enpresetan, informazio analogikoa —hitzak, irudiak edo zenbakizko datuak— formatu digitalera pasatzea eta lehen eskuz edo paperean egiten ziren lanak baliabide digitalen bidez egitea barne hartzen du.
