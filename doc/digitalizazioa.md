@@ -1,6 +1,6 @@
 ---
 title: Digitalizazioa
-permalink: /doc/digitalizazioa.html
+permalink: /doc/digitalizazioa.md
 ---
 
 # 1. Digitalizazioa
