@@ -68,7 +68,7 @@ Karaktere guztiak bitarrera bihurtu ondoren, ordenan jarri ditugu, ilara bakarre
 
 Bitarrak ilaran jarri ondoren, formula nolakoa den begiratu behar dugu. Kasu horretan, formula honelakoa da:
 
-`x^6 + x^5 + x^3 + x^2 + x + 1`
+$$x^6 + x^5 + x^3 + x^2 + x + 1$$
 
 Horren emaitza bitarrean `1101111` da. Formula horrek 6 bitekoa izango dela adierazten du. Horregatik, gure kode bitarraren ondoan beste 6 zero jarri beharko ditugu. Ondoren, zenbaki bitarrak jarri eta atera dugun zenbakiaz zatitu behar dugu.
 
