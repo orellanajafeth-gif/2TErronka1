@@ -1,4 +1,12 @@
-## 1. Sareak
+---
+style: page
+title: Sareak
+---
+
+Erronka honetan, OSI ereduaren lehen bi mailak landu ditugu: 1. maila fisikoa eta 2. maila, datu-loturakoa. Sare-konexioa osatu dugu, datuak hainbat formatutan kodetu ditugu eta webgunea hari gabeko gailu batetik probatu dugu.
+Lehenik, gure taldeak egindako sare-kableak patch panelera konektatu ditugu, eta handik switchera. Ondoren, sisteman sartzeko pasahitzetako bat ASCII kode bihurtu dugu. Datu horiei CRC-6-GSM errore-kontrol kodea gehitu diegu, polinomio hau erabiliz: \(x^6+x^5+x^3+x^2+x+1\).
+Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu dugu —adibidez, ASK, PSK edo FSK—, eta Manchester kodeketaren irudikapena ere egin dugu. Azkenik, marrazkiak webgunera igo ditugu eta webgunea telefono mugikor edo eramangarri baten bidez probatu dugu.
+
 # 1.1 Kablea
 
 
@@ -64,10 +72,12 @@ Horren emaitza bitarrean `1101111` da. Formula horrek 6 bitekoa izango dela adie
 
 Prozesu osoa egin ondoren, emaitza bat emango digu. Gure kasuan, `101001` agertuko da, ez ditugu zenbaki guztiak erabiliko, 6 bit bakarrik behar ditugulako.
 
+![kalkulua](img/sareak/1.jpg)
+
 ## 1.4. Egiaztapena
 
 Egiaztapena egiteko, gure kasuan eman diguzun `101001` emaitza hartuko dugu, zenbaki bitar guztiak jarriko ditugu berriro, baina, lehen jarri genituen 6 zeroak jarri beharrean, kasu honetan eman diguzun `101001` emaitzarekin ordezkatuko ditugu.
 
 Emaitza `0000000` bada, informazioa ondo egiaztatuko da; hori ateratzen ez bada, ez da ondo aterako.
 
-
+![kalkulua](img/sareak/2.jpg)
