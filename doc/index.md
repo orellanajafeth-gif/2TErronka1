@@ -8,8 +8,8 @@ Ongi etorri gure lehengo erronkara! Enpresa baten egitura informatikoa hobetzeko
 ---
 ## Ezagutu gure atalak
 
-1. [Datu baseak](doc/datu%20baseak)
-2. [Digitalizazioa](doc/digitalizazioa)
-3. [Markatze Lengohaiak](doc/markatze)
-4. [Sareak](doc/sareak)
-5. [Sistema Eragileak](doc/sistema%20eragileak)
+1. [Datu baseak](datu_baseak)
+2. [Digitalizazioa](digitalizazioa)
+3. [Markatze Lengohaiak](markatze)
+4. [Sareak](sareak)
+5. [Sistema Eragileak](sistema_eragileak)
