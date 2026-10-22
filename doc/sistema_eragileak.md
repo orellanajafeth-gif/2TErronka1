@@ -42,16 +42,19 @@ Honen barruan karpeta batzuk sortu ditugu eta baimen espezifikoak erabiltzaile/t
 Orain, guztira 10 erabiltzaile sortuko ditugu: 2 Diseinu langileentzat, 1 Giza baliabide, 2 informatika, 3 marketing gestioa eta 2 ofizinak.
 
 ![Virtual box kaptura.](img/se/5.png)
+
 ![Virtual box kaptura.](img/se/6.png)
 
 Orain, Erabiltzaile horiek, bakoitza bere taldeetan sartu ditugu, taldeak hauek dira: Diseinu, Giza baliabideak, informatika, marketing eta ofizinak.
 
 ![Virtual box kaptura.](img/se/7.png)
+
 ![Virtual box kaptura.](img/se/8.png)
 
 Bakoitzak bere talde barruan daude eta karpeten barruan baimenak eman diegu, baina, herentziak kendu ditugu.
 
 ![Virtual box kaptura.](img/se/9.png)
+
 ![Virtual box kaptura.](img/se/10.png)
 
 Hona hemen nola gelditu dira, herentziak kendu arren:
@@ -133,6 +136,10 @@ Horren ondoren, RAID 5aren (Web Enpresako Karpetak) segurtasun-kopia bat egin du
 Instalatzeko, "Windowseko babeskopiak" rolak gehitu beharko ditugu, babeskopiak egin ahal izateko. Instalatu ondoren, eta segurtasun-kopien barruan, "segurtasun-kopia bat egin" atalean sartu behar da, "segurtasun-kopia pertsonalizatua" emango dizugu, eta RAID 5en barruan dauden karpetak hautatuko ditugu. Behin instalatzen zaizkizunean, karpeta bat agertuko zaizu, eta, bertan, egindako eta amaitutako segurtasun-kopia aterako zaizu. Beraz, atal hau amaitu egin dugu.
 
 ![Virtual box kaptura.](img/se/26.png)
+
+###### Babeskopia programatuta
+
+![Virtual box kaptura.](img/se/kopia.png)
 
 ---
 
