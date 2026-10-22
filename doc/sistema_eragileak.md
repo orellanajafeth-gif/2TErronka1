@@ -85,7 +85,7 @@ Kontu politikak pasahitz bezalakoa da, baina, murrizketak ezartzen, hau da, loge
 
 Hurrengo pausurako, RAID egiturak eta diskoen partizioak egin ditugu. Pausu hauek egin baino lehen, instantanea bat atera dugu, zehozer gertatzen bada gure sistema eragilean, berreskuratzeko gure lehen pausoko lana.
 
-![Virtual box kaptura.](img/se/16%20(Instantanea).png)
+![Virtual box kaptura.](img/se/16%20(instantanea).png)
 
 ---
 
