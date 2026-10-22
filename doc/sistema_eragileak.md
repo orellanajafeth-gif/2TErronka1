@@ -18,6 +18,8 @@ Instalazio honen lehen urratsa "berria" edo "sortzea" izango litzateke eta behin
 ![Virtual box kaptura.](img/se/1.png)
 ![Virtual box kaptura.](img/se/2.png)
 
+---
+
 ## IP-a 
 
 Gure zerbitzarirako, IP finko bat ipini dugu, gure lehen IP-a 192.168.1.20 izango da, hurrengoa +50, hau da, 192.168.1.70. DNS moduz, 127.0.0.1 ipini dugu gure zerbitzarira apuntatzen.
@@ -25,6 +27,8 @@ Gure zerbitzarirako, IP finko bat ipini dugu, gure lehen IP-a 192.168.1.20 izang
 ![Virtual box kaptura.](img/se/IP-a%2001.png)
 ![Virtual box kaptura.](img/se/IP-a%2002.png)
 ![Virtual box kaptura.](img/se/IP-a%2003.png)
+
+---
 
 ## ERABILTZAILE ETA BAIMENAK
 
@@ -58,15 +62,18 @@ Hona hemen nola gelditu dira, herentziak kendu arren:
 ![Virtual box kaptura.](img/se/14.png)
 ![Virtual box kaptura.](img/se/15.png)
 
+---
+
 #### BAIMENEKIN FROGAK
 
-Froga batzuk diseinu kontuekin egin ditugu. Lehenik sartu gara eta 
-
-
+Froga batzuk diseinu kontuekin egin ditugu. Lehenik sartu gara diseinu1 erabiltzaileekin eta beste karpetetan sartzen probatu dugu.
 
 ![Virtual box kaptura.](img/se/Frogak%20(Baimenak).png)
 ![Virtual box kaptura.](img/se/Frogak%20(Baimenak2).png)
 
+---
+
+## SEGURTASUN POLITIKAK
 Pasahitz politikak ezarri ditugu. Honek behar da pasahitzak kontrolatzeko eta segurtasun aldetik hobeto dakartzagu.
 
 ![Virtual box kaptura.](img/se/Aldaketa1.png)
@@ -74,9 +81,15 @@ Kontu politikak pasahitz bezalakoa da, baina, murrizketak ezartzen, hau da, loge
 
 ![Virtual box kaptura.](img/se/Aldaketa2.png)
 
+## INSTANTANEA
+
 Hurrengo pausurako, RAID egiturak eta diskoen partizioak egin ditugu. Pausu hauek egin baino lehen, instantanea bat atera dugu, zehozer gertatzen bada gure sistema eragilean, berreskuratzeko gure lehen pausoko lana.
 
 ![Virtual box kaptura.](img/se/16%20(Instantanea).png)
+
+---
+
+## RAID ETA PARTIZIOAK
 
 RAIDak sortzen hasteko, gure makina birtualean 3 disko gogor sortu ditugu RAID 1 bat egin ahal izateko, lehen diskoak 10GB espazio du, bigarrena tamaina berekoa da espazio diferentziarik ez egoteko, hau da, disko berean bolumen berri solte bat ez egoteko, 3 disko horien barruan segurtasun kopia bat egingo dugu. 
 
@@ -87,6 +100,8 @@ RAIDak sortzen hasteko, gure makina birtualean 3 disko gogor sortu ditugu RAID 1
 Arazo bat izan dugu Windows berriro abiarazterakoan, eta errorea egiaztatu dugu. Disko gogorra IDEtik SATAra aldatzeko orduan (4 disko baino gehiago sartzeko SATA behar dugu) disko gogorra usteldu egiten da, eta hori konpontzeko disko nagusia IDEn eta gehigarriak SATAn utzi ditugu RAID 1 egiteko.
 
 ![Virtual box kaptura.](img/se/19%20errore.png)
+
+---
 
 ## RAID 5
 
@@ -103,6 +118,8 @@ RAID 5a egiterakoan, 3 diskoen 30GBak elkartu zaizkigu, disko bakoitzak 10GBtik 
 ![Virtual box kaptura.](img/se/22%20RAID%205.png)
 ![Virtual box kaptura.](img/se/23%20RAID%205.png)
 
+---
+
 ## BABESKOPIAK
 
 RAID 5a egiteari utzi gabe, RAID 5en barruan sortu ditugun Web Enpresa karpetak sartu ditugu, karpeten, fitxategien eta gainerakoen datuak hor barruan edukitzeko.
@@ -117,6 +134,8 @@ Instalatzeko, "Windowseko babeskopiak" rolak gehitu beharko ditugu, babeskopiak 
 
 ![Virtual box kaptura.](img/se/26.png)
 
+---
+
 ## ROLAK
 
 Hurrengoa IIS rola instalatzea da, guztia web-nabigatzailean jartzeko. Windowseko segurtasun-kopiekin egin dugun modu berean egiten dugu hori.
@@ -129,6 +148,8 @@ Hurrengoa IIS rola instalatzea da, guztia web-nabigatzailean jartzeko. Windowsek
 IIS mugikorretik proba egin dugu beste IP batekin eta DHCP bidez.
 
 ![Virtual box kaptura.](img/se/IIS_mugikorretik.png)
+
+---
 
 ## KUOTAK
 
