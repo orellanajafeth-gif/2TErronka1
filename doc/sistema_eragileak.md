@@ -1,6 +1,6 @@
 ---
 style: page
-title: Sistema eragileak
+title: S.Eragileak
 ---
 
 
