@@ -1,3 +1,14 @@
 title: "2T - Erronka 1"
 url: "https://prietounai-commits.github.io"
 baseurl: "/2TErronka1"
+description: Dokumentazioa - Erronka 1
+markdown: kramdown
+permalink: pretty
+theme: minima
+header_pages:
+  - doc/index.md
+  - doc/datu_baseak.md
+  - doc/digitalizazioa.md
+  - doc/markatze.md
+  - doc/sareak.md
+  - sistema_eragileak.md
