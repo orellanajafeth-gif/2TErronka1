@@ -124,7 +124,7 @@ RAID 5a egiterakoan, 3 diskoen 30GBak elkartu zaizkigu, disko bakoitzak 10GBtik 
 
 RAID 5a egiteari utzi gabe, RAID 5en barruan sortu ditugun Web Enpresa karpetak sartu ditugu, karpeten, fitxategien eta gainerakoen datuak hor barruan edukitzeko.
 
-![Virtual box kaptura.](img/se/24.png.png)
+![Virtual box kaptura.](img/se/24.png)
 
 Horren ondoren, RAID 5aren (Web Enpresako Karpetak) segurtasun-kopia bat egin dugu, eta kanpoko disko gogor bat sortu dugu, aurreko beste 3ak bezalakoa, segurtasun-kopia disko lokaletik (Principal) eta beste 3etatik (RAID 5) kanpo egin ahal izateko. 
 
