@@ -1,0 +1,44 @@
+Title	URL	Status	Linked pull requests	Sub-issues progress	Size	Estimate	Priority	Start date	Target date
+Datu basean eredu erlazionala sortu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/49	Egitekoak						Oct 21, 2026	Oct 21, 2026
+Hasierako orriaren egitura zehaztea	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/50	Egitekoak						Oct 21, 2026	Oct 21, 2026
+Menua eta bere funtzionamendua sortzea	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/51	Egitekoak						Oct 21, 2026	Oct 21, 2026
+Modulu bakoitzean eskatutako dokumentazioaren orrialdea egitea	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/53	Egitekoak						Oct 22, 2026	Oct 22, 2026
+Disko-kuotak konfiguratu eta egiaztatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/55	Egitekoak						Oct 22, 2026	Oct 22, 2026
+Datu basea normalizatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/58	Egitekoak						Oct 23, 2026	Oct 23, 2026
+Datu basean sartu beharreko murrizketak adierazi	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/59	Egitekoak						Oct 23, 2026	Oct 23, 2026
+Web-zerbitzaria instalatu eta RAID bolumenean karpeta prestatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/61	Egitekoak						Oct 23, 2026	Oct 23, 2026
+CRCa baieztatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/62	Egitekoak						Oct 26, 2026	Oct 26, 2026
+Web-orrian aipatzen diren kontzeptuen definizioak (Digitalizazioaren kontzeptua, IT eta OT teknologiak, TGDak, cloud computing...) publikatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/63	Egitekoak						Oct 27, 2026	Oct 27, 2026
+Acces-ean datu-basea inplementatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/66	Egitekoak						Oct 27, 2026	Oct 27, 2026
+Windows Serverren, hirugarrenen tresnak erabiliz, babeskopiak leku egokian ezarri eta automatizatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/67	Egitekoak						Oct 28, 2026	Oct 28, 2026
+IIS web-zerbitzarian webgune estatikoa lotu eta suebakia egiaztatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/68	Egitekoak						Oct 28, 2026	Oct 28, 2026
+Hainbat datu sartu datu-basean	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/69	Egitekoak						Oct 28, 2026	Oct 28, 2026
+Webguneari beharrezko informazioa txertatzea	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/70	Egitekoak						Oct 28, 2026	Oct 28, 2026
+Webguneari estiloak aplikatzea	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/71	Egitekoak						Oct 28, 2026	Oct 28, 2026
+PSK(2)-ASK(2)-FSK(2)ra pasatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/72	Egitekoak						Oct 29, 2026	Oct 29, 2026
+Kodetze ezberdinak publikatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/74	Egitekoak						Oct 29, 2026	Oct 29, 2026
+Webgunea beharrezko zerbitzarian atzigarri uztea	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/75	Egitekoak						Oct 29, 2026	Oct 29, 2026
+Funtzionamendu frogak egitea eta akatsak zuzentzea Webgunean	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/76	Egitekoak						Oct 29, 2026	Oct 29, 2026
+Windows Serverren diskoaren irudiak ezarri eta automatizatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/77	Egitekoak						Oct 29, 2026	Oct 29, 2026
+Aurkezpena prestatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/79	Egitekoak						Oct 29, 2026	Oct 29, 2026
+Haririk gabeko gailutik IIS webgunea testeatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/80	Egitekoak						Oct 29, 2026	Oct 29, 2026
+Datu-base proposamena aztertu eta bi ER diagrama ezberdin proposatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/43	Egiten						Oct 20, 2026	
+Datu Basean egiten diren proposamenek dituzten ezaugarri/mugak adierazi	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/44	Egiten						Oct 20, 2026	
+Bi ER diagrametatik bat hautatu eta hautuaren zergatia adierazi	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/48	Egiten						Oct 21, 2026	Oct 21, 2026
+Egindako jarduera guztiak GitHub Pages-en dokumentatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/78	Egiten						Oct 20, 2026	
+Kable eta patch panel-ak egin	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/52	Egiten						Oct 22, 2026	Oct 22, 2026
+Kableak (materiala lortu/kokatu)	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/34	Eginda						Oct 19, 2026	Oct 19, 2026
+Pasahitzak ascii-ra	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/35	Eginda						Oct 19, 2026	Oct 19, 2026
+Windows Server Makina birtuala sortu eta instalatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/39	Eginda						Oct 19, 2026	Oct 19, 2026
+Oinarrizko sare-konfigurazioa (IP estatikoa) eta eguneraketak	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/40	Eginda						Oct 19, 2026	Oct 19, 2026
+Jaso den planifikazioa digitalizatu Github projects erabiliz	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/41	Eginda						Oct 20, 2026	Oct 21, 2026
+Planifikazio honetara irakasleei atzipena eman	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/42	Eginda						Oct 20, 2026	Oct 20, 2026
+Makina birtualak sortzeko softwarea hautatu eta instalatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/38	Eginda						Oct 19, 2026	Oct 19, 2026
+RAID 1 egitura ezarri Windows Serverren	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/54	Eginda						Oct 21, 2026	Oct 21, 2026
+Makina birtualari 3 disko gogor gehitu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/45	Eginda						Oct 21, 2026	Oct 21, 2026
+Bolumen sinpleak eta banatuak kudeatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/46	Eginda						Oct 21, 2026	Oct 21, 2026
+Segurtasun-politikak , erabiltzaileak eta taldeak sortu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/47	Eginda						Oct 21, 2026	Oct 21, 2026
+Asciiari CRC(6) gehitu. G(x)= CRC-6-GSM	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/57	Eginda						Oct 19, 2026	Oct 20, 2026
+Ondak marraztu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/37	Eginda						Oct 19, 2026	
+Manchester kodifikaziora pasatu	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/73	Eginda						Oct 29, 2026	Oct 29, 2026
+RAID 5 egitura ezarri Windows Serverren	https://github.com/aldalurxabier-cmyk/1.-Erronka/issues/60	Eginda						Oct 23, 2026	Oct 23, 2026
