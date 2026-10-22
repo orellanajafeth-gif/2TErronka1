@@ -4,7 +4,9 @@ title: Sareak
 ---
 
 Erronka honetan, OSI ereduaren lehen bi mailak landu ditugu: 1. maila fisikoa eta 2. maila, datu-loturakoa. Sare-konexioa osatu dugu, datuak hainbat formatutan kodetu ditugu eta webgunea hari gabeko gailu batetik probatu dugu.
+
 Lehenik, gure taldeak egindako sare-kableak patch panelera konektatu ditugu, eta handik switchera. Ondoren, sisteman sartzeko pasahitzetako bat ASCII kode bihurtu dugu. Datu horiei CRC-6-GSM errore-kontrol kodea gehitu diegu, polinomio hau erabiliz: \(x^6+x^5+x^3+x^2+x+1\).
+
 Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu dugu —adibidez, ASK, PSK edo FSK—, eta Manchester kodeketaren irudikapena ere egin dugu. Azkenik, marrazkiak webgunera igo ditugu eta webgunea telefono mugikor edo eramangarri baten bidez probatu dugu.
 
 # 1.1 Kablea
