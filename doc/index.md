@@ -1,8 +1,8 @@
 # 2T - Erronka 1
+---
+## Menu nagusia:
 
-## Menú principal
-
-- [Daru baseak](doc/datu%20baseak.md)
+- [Datu baseak](doc/datu%20baseak.md)
 - [Digitalizazioa](doc/digitalizazioa.md)
 - [Markatze Lengohaiak](doc/markatze.md)
 - [Sareak](doc/sareak.md)
@@ -12,8 +12,7 @@
 
 Ongi etorri gure lehengo erronkara! Enpresa baten egitura informatikoa hobetzeko proposamenak landuko ditugu. Webgune honetan, datu-baseei, sareei, sistema eragileei eta digitalizazioari buruzko gure lana aurkeztuko dugu.
 
-[Ikusi Orriak](#ezagutu-gure-atalak)
-
+---
 ## Ezagutu gure atalak
 
 1. [Datu baseak](doc/datu%20baseak)
