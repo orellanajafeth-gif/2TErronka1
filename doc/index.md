@@ -1,4 +1,4 @@
-# 2T - Erronka 1
+
 ---
 
 ## Ongi etorri!
