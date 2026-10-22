@@ -1,12 +1,5 @@
 # 2T - Erronka 1
 ---
-## Menu nagusia:
-
-- [Datu baseak](doc/datu%20baseak.md)
-- [Digitalizazioa](doc/digitalizazioa.md)
-- [Markatze Lengohaiak](doc/markatze.md)
-- [Sareak](doc/sareak.md)
-- [Sistema Eragileak](doc/sistema%20eragileak.md)
 
 ## Ongi etorri!
 
