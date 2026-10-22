@@ -153,8 +153,21 @@ IIS mugikorretik proba egin dugu beste IP batekin eta DHCP bidez.
 
 ## KUOTAK
 
+#### Disko-kuotak
+
 Kuotak 1GBra mugatu ditugu erabiltzaile bakoitzeko, eta 800MB-ko abisua, hasiera batean disko lokalerako bakarrik egin genuen, baina lokalean genuen espazioa ikusita, RAID 5a aldatzea erabaki genuen, eta lehen aipatutako mugak jartzea. Bestalde, 20GBra igo gara erabiltzaileei diskoa mugatzeko eta 18GBri jakinarazteko.
 
 ![Virtual box kaptura.](img/se/30.png)
 ![Virtual box kaptura.](img/se/31.png)
 ![Virtual box kaptura.](img/se/32.png)
+
+#### Carpeta-kuota
+
+Disko-kuotak alde batera utzita, FSRM karpeten kuotak egin ditugu, eta, beraz, zerbitzariaren rol bat instalatu behar izan dugu: "Fitxategi-zerbitzariaren baliabideen administratzailea (FSRM)". 
+
+Rol hori instalatu behar dugu berariaz karpeten kuotak egin ahal izateko. Instalatu ondoren, Windows+R "fsrm.msc" jarriko dugu, eta zuzenean sartuko gaitu luzapen horretan. "Kuoten administrazioan" sartzen gara "kuotetan", eta gure txantiloia pertsonalizatzen dugu, eta hor ezaugarriak jartzen ditugu, gure kasuan 1GB muga erabiltzaile bakoitzeko, eta %90 Web-Enpresaren karpetara iristen zaie abisua. Muga Web-Enpresaren karpetan jarri dugu, orokorra delako eta hor elkartzen direlako fitxategi gehien.
+
+![Virtual box kaptura.](img/se/FSRM.png)
+![Virtual box kaptura.](img/se/FSRM2.png)
+![Virtual box kaptura.](img/se/FSRM3.png)
+
