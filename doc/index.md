@@ -1,6 +1,8 @@
-# 2T - Erronka 1
-
 ---
+style: page
+title: Sarrera
+---
+
 
 ## Ongi etorri!
 

@@ -1,8 +1,13 @@
 ---
 style: page
-title: Sistema eragileak
+title: S.Eragileak
 ---
 
+Erronka honetan, Windows Server erabili dugu webgunerako beharrezkoa den azpiegitura prestatzeko. Zerbitzariak barnean dakarren web-zerbitzaria konfiguratu dugu, eta egoerak eskatutako disko-bolumenak sortu ditugu, RAID egitura egokia barne. Horrez gain, sistemaren eta gordetako informazioaren segurtasuna bermatzeko politika bat ezarri dugu.
+
+Lanean zehar, sistema eragileen funtzioak eta osagaiak aztertu ditugu, eta Windows familiako sistema eragileak instalatzen eta konfiguratzen aritu gara. Disko gogorretako bolumenak kudeatu, RAID egiturak ezarri eta diskoetako informazioa babesteko neurriak landu ditugu.
+
+---
 
 Hasteko, Windows server 2022 sistema eragile multilengilaia instalatuko dugu. Ondoren, Virtualbox izeneko makina birtual batean instalatuko dugu, eta .iso irudi-fitxategi bat deskargatuko dugu, sistema eragilearen datuak instalatzeko eta Windows server abiarazi ahal izateko.
 
