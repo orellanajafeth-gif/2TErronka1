@@ -7,17 +7,17 @@ title: Sarrera
 ## Ongi etorri!
 ---
 Ongi etorri gure lehengo erronkara! Enpresa baten egitura informatikoa hobetzeko proposamenak landuko ditugu. Webgune honetan, datu-baseei, sareei, sistema eragileei eta digitalizazioari buruzko gure lana aurkeztuko dugu.
-
-## Taldekideak
 ---
+## Taldekideak:
+
 - Unai Prieto
 - Asier Perez
 - Dani Rodriguez
 - Jafeth Orellana
 
 ---
-## Ezagutu gure atalak
----
+## Ezagutu gure atalak:
+
 1. [Datu baseak](datu_baseak)
 2. [Digitalizazioa](digitalizazioa)
 3. [Markatze Lengohaiak](markatze)
