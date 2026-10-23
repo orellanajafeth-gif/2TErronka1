@@ -23,6 +23,26 @@ Ondorioz, ER diagramaren helburua streaming-plataforma baten informazioa modu er
 ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien arteko erlazioak taula bihurtuz, atributuak zehaztuz eta gako primarioak (PK) eta gako arrotzak (FK) identifikatuz.
 
 
+- **HARPIDETZA** (ID_HARPIDETZA, Hasiera_data, Amaiera_data)
+- **PLANA** (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium)
+- **ERABILTZAILEA** (EMAILA, ID_PLANA, Izena, Abizena, Pasahitza)
+- **PERFIL** (ID_IZENA, EMAILA, Pertsonala, Familiarra, Infantila)
+- **DUEN** (ID_IZENA, ID_EDUKIAK, Bistaratzea)
+- **EDUKIAK** (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena, Izenburua, Mota)
+- **PELIKULAK** (Zuzendaria, Iraupena_min)
+
+  - id: EDUKIKO FK (id)
+
+- **DOKU** (Gaia, Iraupena_min)
+
+  - id: EDUKIKO FK (id)
+
+- **SERIEAK**
+
+  - id: EDUKIKO FK (id)
+
+- **DENBORALDIAK** (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia)
+- **KAPITULUAK** (ID_KAPITULUA, ID_DENBORALDIA, Izena)
 
 ### 3. Datu basea normalizatu (1F-2F-3F):
 ---
