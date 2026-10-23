@@ -11,6 +11,11 @@ Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu dugu —adibi
 
 # 1.1 Kablea
 ![kablefrontal](img/sareak/1.jpeg)
+![kablefrontalhembra](img/sareak/2.jpeg)
+![kablelateral1hembra](img/sareak/3.jpeg)
+![kablelateral2hembra](img/sareak/4.jpeg)
+![kablepanel](img/sareak/5.jpeg)
+![kablepanel](img/sareak/6.jpeg)
 
 # 1.2 CRC
 
