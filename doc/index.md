@@ -16,3 +16,5 @@ Ongi etorri gure lehengo erronkara! Enpresa baten egitura informatikoa hobetzeko
 3. [Markatze Lengohaiak](markatze)
 4. [Sareak](sareak)
 5. [Sistema Eragileak](sistema_eragileak)
+
+![diagrama](img/sarrera/logo_uni.jpg)
