@@ -10,7 +10,7 @@ Lehenik, gure taldeak egindako sare-kableak patch panelera konektatu ditugu, eta
 Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu dugu —adibidez, ASK, PSK edo FSK—, eta Manchester kodeketaren irudikapena ere egin dugu. Azkenik, marrazkiak webgunera igo ditugu eta webgunea telefono mugikor edo eramangarri baten bidez probatu dugu.
 
 # 1.1 Kablea
-
+![kablefrontal](img/sareak/1.jpeg)
 
 # 1.2 CRC
 
