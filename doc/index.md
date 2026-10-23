@@ -12,7 +12,7 @@ Ongi etorri gure lehengo erronkara! Enpresa baten egitura informatikoa hobetzeko
 - Unai Prieto
 - Asier Perez
 - Dani Rodriguez
-- 
+- Jafeth Orellana
 ---
 ## Ezagutu gure atalak
 
