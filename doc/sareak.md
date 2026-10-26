@@ -9,13 +9,49 @@ Lehenik, gure taldeak egindako sare-kableak patch panelera konektatu ditugu, eta
 
 Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu dugu —adibidez, ASK, PSK edo FSK—, eta Manchester kodeketaren irudikapena ere egin dugu. Azkenik, marrazkiak webgunera igo ditugu eta webgunea telefono mugikor edo eramangarri baten bidez probatu dugu.
 
-# 1.1 Kablea
-![kablefrontal](img/sareak/1.jpeg)
-![kablefrontalhembra](img/sareak/2.jpeg)
-![kablelateral1hembra](img/sareak/3.jpeg)
-![kablelateral2hembra](img/sareak/4.jpeg)
-![kablepanel](img/sareak/5.jpeg)
-![kablepanel](img/sareak/6.jpeg)
+# 1.1 Sareko kablea egiteko prozesua
+Gure lana sareko kable bat prestatzea eta haren muturrak konektatzea izan da. Mutur batean RJ45ko hormako hartune batean konektatu dugu, eta beste muturra patch panel batean.
+
+## Erabili ditugun materialak
+
+- UTP sare-kablea, lau bikote bihurriturekin
+- RJ45ko hormako hartunea
+- Patch panela
+- Krone tresna edo kable-zulagailua
+- Kable-ebakitzailea edo guraizeak
+
+## Pausoz pauso
+
+1. **Kablea neurtu eta moztu dugu.**  
+   Behar genuen luzera neurtu eta kablea moztu dugu.
+
+2. **Kanpoko estalkia kendu dugu.**  
+   Kablearen muturretik estalki grisa kontu handiz kendu dugu, barruko hariak ez kaltetzeko.
+    ![kablefrontal](img/sareak/1.jpeg)
+
+3. **Hari-bikoteak banandu ditugu.**  
+   Barruko lau bikoteak askatu eta koloreen arabera bereizi ditugu: laranja, berdea, urdina eta marroia, bakoitza hari zuri marradunarekin.
+    ![kablefrontalhembra](img/sareak/2.jpeg)  
+    ![kablelateral1hembra](img/sareak/3.jpeg)
+    ![kablelateral2hembra](img/sareak/4.jpeg)
+
+4. **Kolore-ordenari jarraitu diogu.**  
+   Hariak RJ45 hartuneko eta patch paneleko kolore-marken arabera kokatu ditugu. B araua erabili dugu bi muturretan.
+
+5. **Hariak hartunean finkatu ditugu.**  
+   Hari bakoitza dagokion zirrikituan jarri eta krone tresnarekin sakatu dugu. Horrela, kontaktuek hariak finkatu dituzte eta soberan zegoen zatia moztu dugu.
+   ![kablepanel](img/sareak/5.jpeg)
+    ![kablepanel](img/sareak/6.jpeg)
+
+6. **Beste muturra patch panelera konektatu dugu.**  
+   Kablearen beste muturreko hariak patch paneleko kolore-markei jarraituz kokatu eta finkatu ditugu.
+
+7. **Konexioak egiaztatu ditugu.**  
+   Hariak behar bezala sartuta eta finkatuta zeudela begiratu dugu.
+
+
+
+
 
 # 1.2 CRC
 
