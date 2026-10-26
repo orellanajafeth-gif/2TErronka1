@@ -25,12 +25,14 @@ Gure lana RJ45 ar konektorea duen sareko kable bat prestatzea izan da. Kablearen
 
 1. **Kablearen muturretik kanpoko estalkia kendu dugu.**
 2. **Barruko hari-bikoteak askatu eta koloreen arabera bereizi ditugu.**
+    ![kablefrontal](img/sareak/1.jpeg)
 3. **Hariak B arauaren ordenan lerrokatu ditugu: zuri-laranja, laranja, zuri-berdea, urdina, zuri-urdina, berdea, zuri-marroia eta marroia.**
-4. **Hari-muturrak luzera berean moztu ditugu.**
-5. **Hariak RJ45 konektorean sartu ditugu, ordena mantenduz.**
+
+4. **Hari-muturrak luzera berean moztu ditugu, Hariak RJ45 konektorean sartu ditugu, ordena mantenduz.** 
+![rj45 alde bat](img/sareak/7.jpeg)
 6. **Konektorea krispagailuan jarri eta kableari finkatu diogu.**
 7. **Hariak konektorean behar bezala sartuta eta finkatuta geratu direla begiratu dugu.**
-
+![rj45 alde bat](img/sareak/8.jpeg)
 ---
 
 ## 2. Kablea PATCH PANEL-era konektatzea:
