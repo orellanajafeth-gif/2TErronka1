@@ -16,7 +16,7 @@ Azkenik, entitateen arteko erlazioak eta kardinalitateak zehaztu ditugu, sistema
 
 Ondorioz, ER diagramaren helburua streaming-plataforma baten informazioa modu eraginkorrean antolatzea da, datuak behar bezala gordetzeko, erlazionatzeko eta etorkizunean kontsultatu eta kudeatu ahal izateko.
 
-![diagrama](img/db/1.png)
+  ![digrama](img/db/1.png)
 
 ### 2. Modu erlazionala egin:
 ---
