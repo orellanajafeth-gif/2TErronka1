@@ -159,3 +159,5 @@ Grafikoarekin hasteko, maila baxua aukeratu dut.
 **Manchester diferentzialaren grafikoa:**
 
 ![Manchester diferentziala](manchester-diferentziala.png)
+
+## 2.1 Sare diagrama
