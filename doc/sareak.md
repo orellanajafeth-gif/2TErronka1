@@ -9,8 +9,30 @@ Lehenik, gure taldeak egindako sare-kableak patch panelera konektatu ditugu, eta
 
 Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu dugu —adibidez, ASK, PSK edo FSK—, eta Manchester kodeketaren irudikapena ere egin dugu. Azkenik, marrazkiak webgunera igo ditugu eta webgunea telefono mugikor edo eramangarri baten bidez probatu dugu.
 
-# 1.1 Sareko kablea egiteko prozesua
+# 1.1 Sareko kablea egiteko prozesua 
 ---
+
+## 1. RJ45 AR konektorea egitea:
+Gure lana RJ45 ar konektorea duen sareko kable bat prestatzea izan da. Kablearen mutur batean RJ45 ar konektorea muntatu dugu, eta beste muturra patch panelera konektatu dugu.
+### Erabilitako materialak
+
+- UTP sare-kablea
+- RJ45 ar konektorea
+- Konektoreak krispatzeko tresna
+- Kable-ebakitzailea edo guraizeak
+
+### Pausoz pauso
+
+1. Kablearen muturretik kanpoko estalkia kendu dugu.
+2. Barruko hari-bikoteak askatu eta koloreen arabera bereizi ditugu.
+3. Hariak B arauaren ordenan lerrokatu ditugu: zuri-laranja, laranja, zuri-berdea, urdina, zuri-urdina, berdea, zuri-marroia eta marroia.
+4. Hari-muturrak luzera berean moztu ditugu.
+5. Hariak RJ45 konektorean sartu ditugu, ordena mantenduz.
+6. Konektorea krispagailuan jarri eta kableari finkatu diogu.
+7. Hariak konektorean behar bezala sartuta eta finkatuta geratu direla begiratu dugu.
+---
+## 2. Kablea PATCH PANEL-era konektatzea:
+
 Gure lana sareko kable bat prestatzea eta haren muturrak konektatzea izan da. Mutur batean RJ45ko hormako hartune batean konektatu dugu, eta beste muturra patch panel batean.
 
 ## Erabili ditugun materialak
