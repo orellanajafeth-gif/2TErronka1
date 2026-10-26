@@ -27,8 +27,8 @@ ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien 
 - **PLANA** (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium)
 - **ERABILTZAILEA** (EMAILA, ID_PLANA, Izena, Abizena, Pasahitza)
 - **PERFIL** (ID_IZENA, EMAILA, Pertsonala, Familiarra, Infantila)
-- **DUEN** (ID_IZENA, ID_EDUKIAK, Bistaratzea)
-- **EDUKIAK** (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena, Izenburua, Mota)
+- **IKUSI** (ID_IZENA, ID_EDUKIAK, Bistaratzea)
+- **EDUKIAK** (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena, Mota)
 - **PELIKULAK** (Zuzendaria, Iraupena_min)
 
   - id: EDUKIKO FK (id)

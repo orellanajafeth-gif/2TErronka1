@@ -9,11 +9,49 @@ Lehenik, gure taldeak egindako sare-kableak patch panelera konektatu ditugu, eta
 
 Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu dugu —adibidez, ASK, PSK edo FSK—, eta Manchester kodeketaren irudikapena ere egin dugu. Azkenik, marrazkiak webgunera igo ditugu eta webgunea telefono mugikor edo eramangarri baten bidez probatu dugu.
 
-# 1.1 Kablea
+# 1.1 Sareko kablea egiteko prozesua
+---
+Gure lana sareko kable bat prestatzea eta haren muturrak konektatzea izan da. Mutur batean RJ45ko hormako hartune batean konektatu dugu, eta beste muturra patch panel batean.
 
+## Erabili ditugun materialak
+
+- UTP sare-kablea, lau bikote bihurriturekin
+- RJ45ko hormako hartunea
+- Patch panela
+- Krone tresna edo kable-zulagailua
+- Kable-ebakitzailea edo guraizeak
+
+## Pausoz pauso
+
+1. **Kablea neurtu eta moztu dugu.**  
+   Behar genuen luzera neurtu eta kablea moztu dugu.
+
+2. **Kanpoko estalkia kendu dugu.**  
+   Kablearen muturretik estalki grisa kontu handiz kendu dugu, barruko hariak ez kaltetzeko.
+    ![kablefrontal](img/sareak/1.jpeg)
+
+3. **Hari-bikoteak banandu ditugu.**  
+   Barruko lau bikoteak askatu eta koloreen arabera bereizi ditugu: laranja, berdea, urdina eta marroia, bakoitza hari zuri marradunarekin.
+    ![kablefrontalhembra](img/sareak/2.jpeg)  
+    ![kablelateral1hembra](img/sareak/3.jpeg)
+    ![kablelateral2hembra](img/sareak/4.jpeg)
+
+4. **Kolore-ordenari jarraitu diogu.**  
+   Hariak RJ45 hartuneko eta patch paneleko kolore-marken arabera kokatu ditugu. B araua erabili dugu bi muturretan.
+
+5. **Hariak hartunean finkatu ditugu.**  
+   Hari bakoitza dagokion zirrikituan jarri eta krone tresnarekin sakatu dugu. Horrela, kontaktuek hariak finkatu dituzte eta soberan zegoen zatia moztu dugu.
+   ![kablepanel](img/sareak/5.jpeg)
+    ![kablepanel](img/sareak/6.jpeg)
+
+6. **Beste muturra patch panelera konektatu dugu.**  
+   Kablearen beste muturreko hariak patch paneleko kolore-markei jarraituz kokatu eta finkatu ditugu.
+
+7. **Konexioak egiaztatu ditugu.**  
+   Hariak behar bezala sartuta eta finkatuta zeudela begiratu dugu.
 
 # 1.2 CRC
-
+---
 Egin dugun lehenengo gauza pasahitz bat sortzea izan zen, inplementatuta ditugun pasahitzen politikak kontuan hartuta. Hau da erabiltzea erabaki genuen pasahitza: "Admin1@". Gure helburu nagusia ahalik eta segurtasun mailarik handiena lortzea zen. Gero letra bakoitza hartu eta hamartarrera pasatu dugu, hau da emaitza:
 
 - A: 65
@@ -35,7 +73,7 @@ Zenbaki hamartarra atera ondoren, zenbaki bitarrera pasatu behar dugu, gero CRC-
 - @: `01000000`
 
 ## 1.2.1 Hamartarretik bitarrera pasatzea
-
+---
 Letra bakoitzaren bitarra lortzeko prozesu hau jarraitu dugu, hau da, dezimaletik bitarrera pasatako "A" letra:
 
 | Zatiketa | Zatidura | Hondarra |
@@ -55,7 +93,7 @@ ASCII kodean 8 bit erabiltzen direnez, 0 bat gehitu dugu hasieran.
 Prozedura bera erabili dugu pasahitzaren gainerako karaktereekin.
 
 ## 1.2.2 Karaktere guztiak bitarrera bihurtzea
-
+---
 Karaktere guztiak bitarrera bihurtu ondoren, ordenan jarri ditugu, ilara bakarrean.
 
 **Espaziorik gabe:**
@@ -65,7 +103,7 @@ Karaktere guztiak bitarrera bihurtu ondoren, ordenan jarri ditugu, ilara bakarre
 ```
 
 ## 1.2.3 CRC-6-GSM kalkulua
-
+---
 Bitarrak ilaran jarri ondoren, formula nolakoa den begiratu behar dugu. Kasu horretan, formula honelakoa da:
 
 $$x^6 + x^5 + x^3 + x^2 + x + 1$$
@@ -77,7 +115,7 @@ Prozesu osoa egin ondoren, emaitza bat emango digu. Gure kasuan, `101001` agertu
 ![kalkulua](img/sareak/1.jpg)
 
 ## 1.2.4 Egiaztapena
-
+---
 Egiaztapena egiteko, gure kasuan eman diguzun `101001` emaitza hartuko dugu, zenbaki bitar guztiak jarriko ditugu berriro, baina, lehen jarri genituen 6 zeroak jarri beharrean, kasu honetan eman diguzun `101001` emaitzarekin ordezkatuko ditugu.
 
 Emaitza `0000000` bada, informazioa ondo egiaztatuko da; hori ateratzen ez bada, ez da ondo aterako.
@@ -87,7 +125,7 @@ Emaitza `0000000` bada, informazioa ondo egiaztatuko da; hori ateratzen ez bada,
 
 
 ## 1.3 PSK, ASK eta FSK grafikoak
-
+---
 Gero, ditugun zenbaki bitar guztiak hartuko ditugu, gure emaitza ere jarriko dugu, formula hau erabiliz: **PSK(2)-ASK(2)-FSK(2)**.
 
 Grafikoak atera behar ditugu. Formulak adierazten digu 6 biteko grafikoak izan behar direla. PSK-k adierazten digu non hasten den hondoia, ASK-ek hondoak izan behar duen altuera eta FSK-k adierazten digu zenbat sakonune izan behar dituen.
@@ -101,7 +139,7 @@ Horrela geratu zaizkigu grafikoak:
 ![PSK, ASK eta FSK grafikoak](irudia-grafikoak.png)
 
 ## 1.3.1 Manchester kodeketa
-
+---
 Ondoren, Manchester normalaren eta Manchester diferentzialaren grafiko batzuk egin ditugu.
 
 ###  Manchester normala

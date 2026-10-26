@@ -8,7 +8,7 @@ Digitalizazioa prozesu, produktu eta zerbitzu tradizionalak teknologia digitalak
 Digitalizatzea ez da zereginak informatizatzea bakarrik: enpresak nola lan egiten duen, nola ekoizten duen eta erabakiak nola hartzen dituen alda dezake. Horretarako, teknologia enpresaren jardueran ondo txertatu behar da, eta langileek tresna eta lan egiteko modu berrietara egokitu behar dute.
 
 ## Enpresek digitalizatzearen arrazoiak eta onurak
-
+---
 Digitalizazioak hainbat onura ekar ditzake:
 
 - **Eraginkortasuna eta zehaztasuna handitzea:** zereginak azkarrago egin eta eskuzko akatsak gutxitu daitezke.
@@ -18,7 +18,7 @@ Digitalizazioak hainbat onura ekar ditzake:
 - **Negozio-aukera berriak sortzea:** online salmenta, prestakuntza digitala eta hodeiko software-zerbitzuak dira aukera horien adibide.
 
 ## Enpresa digitalizatzeko moduak
-
+---
 Enpresa batek digitalizazioa hainbat modutan ezar dezake:
 
 - Paperezko dokumentuak fitxategi digital bihurtuz.
@@ -33,7 +33,7 @@ Enpresa batek digitalizazioa hainbat modutan ezar dezake:
 Digitalizazioak lanpostuetan, zereginetan, komunikazioan eta enpresaren antolaketan eragina izan dezake. Zeregin errepikakor batzuk automatiza daitezke, baina teknologia erabiltzeko, programatzeko eta mantentzeko lan berriak ere sor daitezke.
 
 # 2. IT eta OT teknologiak
-
+---
 Produkzio-sektorean bi teknologia-talde nagusi daude: IT eta OT. Biek digitalizazioan eta enpresaren eraginkortasunean laguntzen dute, baina helburu desberdinak dituzte.
 
 ## IT: informazio-teknologiak
@@ -58,7 +58,7 @@ OT teknologien adibideak dira sentsoreak, termostatoak, beso robotikoak, kontrol
 ITk eta OTk datuak maneiatzen dituzte eta sistemen arteko konexioa behar dute, baina datu horien erabilera desberdina da. IT eta OT integratzean, produkzio-ekipoek sortutako informazioa enpresako sistema informatikoekin parteka daiteke. Horrek ekoizpena denbora errealean monitorizatzen, arazoak lehenago antzematen, mantentze-lanak planifikatzen eta baliabideak hobeto erabiltzen laguntzen du. Bi arloetako taldeen lankidetza beharrezkoa da integrazioa modu eraginkor eta seguruan egiteko.
 
 # 3. Teknologia Gaitzaile Digitalak (TGD)
-
+---
 Teknologia Gaitzaile Digitalak eraldaketa digitala ahalbidetzen duten teknologiak dira. Gaitasun eta negozio-eredu berriak garatzen laguntzen dute, eta berrikuntza, eraginkortasuna eta lehiakortasuna bultzatzen dituzte. 4.0 Industriaren oinarrietako batzuk dira.
 
 ## TGD nagusiak
