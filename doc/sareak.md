@@ -30,9 +30,9 @@ Gure lana RJ45 ar konektorea duen sareko kable bat prestatzea izan da. Kablearen
 
 4. **Hari-muturrak luzera berean moztu ditugu, Hariak RJ45 konektorean sartu ditugu, ordena mantenduz.** 
 ![rj45 alde bat](img/sareak/7.jpeg)
-6. **Konektorea krispagailuan jarri eta kableari finkatu diogu.**
-7. **Hariak konektorean behar bezala sartuta eta finkatuta geratu direla begiratu dugu.**
+6. **Konektorea krispagailuan jarri eta kableari finkatu diogu eta hariak konektorean behar bezala sartuta eta finkatuta geratu direla begiratu dugu.**
 ![rj45 alde bat](img/sareak/8.jpeg)
+
 ---
 
 ## 2. Kablea PATCH PANEL-era konektatzea:
