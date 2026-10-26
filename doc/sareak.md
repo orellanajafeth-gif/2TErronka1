@@ -23,13 +23,13 @@ Gure lana RJ45 ar konektorea duen sareko kable bat prestatzea izan da. Kablearen
 
 ### Pausoz pauso
 
-1. Kablearen muturretik kanpoko estalkia kendu dugu.
-2. Barruko hari-bikoteak askatu eta koloreen arabera bereizi ditugu.
-3. Hariak B arauaren ordenan lerrokatu ditugu: zuri-laranja, laranja, zuri-berdea, urdina, zuri-urdina, berdea, zuri-marroia eta marroia.
-4. Hari-muturrak luzera berean moztu ditugu.
-5. Hariak RJ45 konektorean sartu ditugu, ordena mantenduz.
-6. Konektorea krispagailuan jarri eta kableari finkatu diogu.
-7. Hariak konektorean behar bezala sartuta eta finkatuta geratu direla begiratu dugu.
+1. **Kablearen muturretik kanpoko estalkia kendu dugu.**
+2. **Barruko hari-bikoteak askatu eta koloreen arabera bereizi ditugu.**
+3. **Hariak B arauaren ordenan lerrokatu ditugu: zuri-laranja, laranja, zuri-berdea, urdina, zuri-urdina, berdea, zuri-marroia eta marroia.**
+4. **Hari-muturrak luzera berean moztu ditugu.**
+5. **Hariak RJ45 konektorean sartu ditugu, ordena mantenduz.**
+6. **Konektorea krispagailuan jarri eta kableari finkatu diogu.**
+7. **Hariak konektorean behar bezala sartuta eta finkatuta geratu direla begiratu dugu.**
 
 ---
 
