@@ -12,7 +12,7 @@ Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu dugu —adibi
 # 1.1 Sareko kablea egiteko prozesua 
 ---
 
-## 1. RJ45 AR konektorea egitea:
+## 1.1.1 RJ45 AR konektorea egitea:
 Gure lana RJ45 ar konektorea duen sareko kable bat prestatzea izan da. Kablearen mutur batean RJ45 ar konektorea muntatu dugu, eta beste muturra patch panelera konektatu dugu.
 ### Erabilitako materialak
 
@@ -35,7 +35,7 @@ Gure lana RJ45 ar konektorea duen sareko kable bat prestatzea izan da. Kablearen
 
 ---
 
-## 2. Kablea PATCH PANEL-era konektatzea:
+## 1.1.2 Kablea PATCH PANEL-era konektatzea:
 
 Gure lana sareko kable bat prestatzea eta haren muturrak konektatzea izan da. Mutur batean RJ45ko hormako hartune batean konektatu dugu, eta beste muturra patch panel batean.
 
