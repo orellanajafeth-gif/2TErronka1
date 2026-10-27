@@ -16,12 +16,11 @@ Azkenik, entitateen arteko erlazioak eta kardinalitateak zehaztu ditugu, sistema
 
 Ondorioz, ER diagramaren helburua streaming-plataforma baten informazioa modu eraginkorrean antolatzea da, datuak behar bezala gordetzeko, erlazionatzeko eta etorkizunean kontsultatu eta kudeatu ahal izateko.
 
-![diagrama](img/db/1.png)
+  ![digrama](img/db/1.png)
 
 ### 2. Modu erlazionala egin:
 ---
 ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien arteko erlazioak taula bihurtuz, atributuak zehaztuz eta gako primarioak (PK) eta gako arrotzak (FK) identifikatuz.
-
 
 - **HARPIDETZA** (ID_HARPIDETZA, Hasiera_data, Amaiera_data)
 - **PLANA** (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium)
@@ -46,8 +45,9 @@ ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien 
 
 ### 3. Datu basea normalizatu (1F-2F-3F):
 ---
-
 Ondoren, datu-basearen normalizazioa landu dugu, hiru forma normalak aplikatuz. Lehen forma normalean (1F), atributu bakoitzak balio bakarra izatea eta datuak behar bezala antolatuta egotea ziurtatu dugu. Bigarren forma normalean (2F), menpekotasun partzialak aztertu ditugu, atributu bakoitza gako primario osoaren menpe egon dadin. Azkenik, hirugarren forma normalean (3F), menpekotasun iragankorrak aztertu ditugu, datuen errepikapenak eta eguneratze-arazoak saihesteko.
 
 
-Prozesu horri esker, datu-basearen egitura koherenteagoa eta eraginkorragoa lortu nahi izan dugu, informazioa modu egokian gordetzeko, erlazionatzeko, kontsultatzeko eta eguneratzeko. Horrela, streaming-plataformaren erabiltzaileak, profilak, edukiak, planak eta harpidetzak modu antolatuan kudeatu ahal izango dira.
+### 4. Datu basea ACCESS-en implementatu:
+---
+Prozesu honen esker, datu-basearen egitura koherenteagoa eta eraginkorragoa lortu nahi izan dugu, informazioa modu egokian gordetzeko, erlazionatzeko, kontsultatzeko eta eguneratzeko. Horrela, streaming-plataformaren erabiltzaileak, profilak, edukiak, planak eta harpidetzak modu antolatuan kudeatu ahal izango dira.
