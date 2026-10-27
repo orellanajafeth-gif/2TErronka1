@@ -1,30 +1,29 @@
-.body {
+body {
     font-family: Arial, sans-serif;
-    background-color: #e0e6f1;
+    background-color: #eaf0f7;
     margin: 20px;
     padding: 10px;
 }
 
 .h1 {
-    color: #02146b;
+    color: #17365d;
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
 .nav {
-    background-color: #16518f;
+    background-color: #1f5685;
     padding: 1em;
     margin-bottom: 1em;
     box-sizing: border-box;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-
 }
 
 .button {
-    background-color: #a21818;
-    color: #fff;
+    background-color: #2a9d8f;
+    color: #ffffff;
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
@@ -41,15 +40,14 @@
 
 .link {
     text-decoration: none;
-    color: #000000;
+    color: #17365d;
     padding: 0.5em 1em;
     display: inline-block;
     text-align: center;
-
 }
 
 .link:hover {
-    background-color: #235266;
+    background-color: #2a9d8f;
     cursor: pointer;
     text-decoration: underline;
 }
@@ -67,8 +65,8 @@ a {
 }
 
 .footer {
-    background-color: #16518f;
-    color: #fff;
+    background-color: #1f5685;
+    color: #ffffff;
     text-align: center;
     padding: 1em;
     position: fixed;
@@ -78,7 +76,7 @@ a {
 
 .main {
     font-size: 1.5em;
-    color: #000000;
+    color: #263746;
     text-align: center;
     margin-bottom: 1em;
 }
