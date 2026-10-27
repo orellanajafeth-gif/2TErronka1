@@ -48,6 +48,245 @@ ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien 
 Ondoren, datu-basearen normalizazioa landu dugu, hiru forma normalak aplikatuz. Lehen forma normalean (1F), atributu bakoitzak balio bakarra izatea eta datuak behar bezala antolatuta egotea ziurtatu dugu. Bigarren forma normalean (2F), menpekotasun partzialak aztertu ditugu, atributu bakoitza gako primario osoaren menpe egon dadin. Azkenik, hirugarren forma normalean (3F), menpekotasun iragankorrak aztertu ditugu, datuen errepikapenak eta eguneratze-arazoak saihesteko.
 
 
+#### 1. HARPIDETZA
+
+```text
+HARPIDETZA (ID_HARPIDETZA, Hasiera_data, Amaiera_data)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Bai, dependentzia partziala ez dagoelako
+
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
+```
+
+---
+
+#### 2. PLANA
+
+```text
+PLANA (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Ez, dependentzia partziala dagoelako.
+```
+
+### Dependentzia partziala
+
+| ID_PLANA      | Estandarra, Premium |
+| ------------- | ------------------- |
+| ID_HARPIDETZA |                     |
+
+### Deskonposaketa
+
+* `ID_PLANA (Estandarra, Premium)`
+* `PLANA (ID_PLANA, ID_HARPIDETZA)`
+
+```text
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
+```
+
+---
+
+#### 3. ERABILTZAILEA
+
+```text
+ERABILTZAILEA (EMAILA, ID_PLANA, Izena, Abizena, Pasahitza)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Ez, dependentzia partziala dagoelako.
+```
+
+### Dependentzia partziala
+
+| EMAILA   | Izena, Abizena, Pasahitza |
+| -------- | ------------------------- |
+| ID_PLANA |                           |
+
+### Deskonposaketa
+
+* `EMAILA (Izena, Abizena, Pasahitza)`
+* `ERABILTZAILEA (EMAILA eta ID_PLANA)`
+
+```text
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
+```
+
+---
+
+#### 4. PERFIL
+
+```text
+PERFIL (ID_IZENA, EMAILA, Pertsonala, Familiarra, Infantila)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Ez, dependentzia partziala dagoelako.
+```
+
+### Dependentzia partziala
+
+| ID_IZENA | Pertsonala, Familiarra, Infantila |
+| -------- | --------------------------------- |
+| EMAILA   |                                   |
+
+### Deskonposaketa
+
+* `ID_IZENA (Pertsonala, Familiarra, Infantila)`
+* `PERFIL (ID_IZENA eta EMAILA)`
+
+```text
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
+```
+
+---
+
+#### 5. IKUSI
+
+```text
+IKUSI (ID_IZENA, ID_EDUKIAK, Bistaratzea)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Ez, dependentzia partziala dagoelako.
+```
+
+### Dependentzia partziala
+
+| ID_IZENA   |             |
+| ---------- | ----------- |
+| ID_EDUKIAK |             |
+| IKUSI      | Bistaratzea |
+
+### Deskonposaketa
+
+* `IKUSI (ID_IZENA eta ID_EDUKIAK, Bistaratzea)`
+
+```text
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
+```
+
+---
+
+#### 6. EDUKIAK
+
+```text
+EDUKIAK (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena,
+Izenburua, Mota)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Bai, dependentzia partziala ez dagoelako
+
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
+```
+
+---
+
+#### 7. PELIKULAK
+
+```text
+PELIKULAK (Zuzendaria, Iraupena_min)
+
+id: EDUKIKO FK (id)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Bai, dependentzia partziala ez dagoelako
+
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako
+```
+
+---
+
+#### 8. DOKU
+
+```text
+DOKU (Gaia, Iraupena_min)
+
+id: EDUKIKO FK (id)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Bai, dependentzia partziala ez dagoelako
+
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako
+```
+
+---
+
+#### 9. SERIEAK
+
+```text
+SERIEAK
+
+id: EDUKIKO FK (id)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Bai, dependentzia partziala ez dagoelako
+
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako
+```
+
+---
+
+#### 10. DENBORALDIAK
+
+```text
+DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Bai, dependentzia partziala ez dagoelako
+```
+
+### Dependentzia partziala
+
+| ID_DENBORALDIA | Zenbakia |
+| -------------- | -------- |
+| ID_EDUKIAK     |          |
+
+### Deskonposaketa
+
+* `ID_DENBORALDIAK (Zenbakia)`
+* `DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK)`
+
+```text
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
+```
+
+---
+
+#### 11. KAPITULUAK
+
+```text
+KAPITULUAK (ID_KAPITULUA, ID_DENBORALDIA, Izena)
+
+1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+
+2F? Bai, dependentzia partziala ez dagoelako
+```
+
+### Dependentzia partziala
+
+| ID_KAPITULUA   | Izena |
+| -------------- | ----- |
+| ID_DENBORALDIA |       |
+
+### Deskonposaketa
+
+* `ID_KAPITULUA (Izena)`
+* `ID_DENBORALDIAK (ID_KAPITULUA, ID_DENBORALDIA)`
+
+```text
+3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
+```
+
+
+
 ### 4. Datu basea ACCESS-en implementatu:
 ---
 Prozesu honen esker, datu-basearen egitura koherenteagoa eta eraginkorragoa lortu nahi izan dugu, informazioa modu egokian gordetzeko, erlazionatzeko, kontsultatzeko eta eguneratzeko. Horrela, streaming-plataformaren erabiltzaileak, profilak, edukiak, planak eta harpidetzak modu antolatuan kudeatu ahal izango dira.
