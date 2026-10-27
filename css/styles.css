@@ -1,65 +1,58 @@
 .body {
     font-family: Arial, sans-serif;
-    background-color: #b6c1ef;
+    background-color: #f1f5f9;
     margin: 20px;
 }
 
 .h1 {
-    color: #e0ebdd;
+    color: #1e3a5f;
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
 .nav {
-    background-color: #9eb1c6;
+    background-color: #1e3a5f;
     padding: 1em;
     margin-bottom: 1em;
     box-sizing: border-box;
     margin-left: 20%;
     margin-right: 20%;
-
 }
 
-
 .button a {
-  color: inherit;           
-  text-decoration: none;    
-  background-color: #0560c1; 
-  display: inline-block;    
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  padding: 0.5em 1em;
-  
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #2563a6;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
 }
 
 .a {
     text-decoration: none;
-    color: #f8f4f4;
+    color: #ffffff;
     padding: 0.5em 1em;
     display: inline-block;
-    background-color: #0560c1;
+    background-color: #2563a6;
 }
-
-
 
 .ul {
     list-style-type: none;
     padding: 10px;
     display: flex;
-    padding: 10px;
     margin: 10px;
 }
 
 .link {
     text-decoration: none;
-    color: #fefefe;
+    color: #ffffff;
     padding: 0.5em 1em;
     display: inline-block;
 }
 
 .link:hover {
-    background-color: #20a396;
+    background-color: #0f766e;
     cursor: pointer;
 }
 
@@ -68,4 +61,5 @@
     line-height: 1.5;
     margin-bottom: 1em;
     letter-spacing: 0.5px;
+    color: #263445;
 }
