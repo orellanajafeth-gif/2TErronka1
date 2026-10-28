@@ -21,7 +21,7 @@ Ondorioz, ER diagramaren helburua streaming-plataforma baten informazioa modu er
 ### 2. Modu erlazionala egin:
 ---
 ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien arteko erlazioak taula bihurtuz, atributuak zehaztuz eta gako primarioak (PK) eta gako arrotzak (FK) identifikatuz.
-![eredu erlazioanala](img/db/1.png)
+![eredu erlazioanala](img/db/ereduer.png)
 
 
 ### 3. Datu basea normalizatu (1F-2F-3F):
