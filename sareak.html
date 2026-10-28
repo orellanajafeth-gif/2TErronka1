@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
 
     <header>
         <nav class="nav">
-            <main class="main"><b> Sareak </b></main>
+            <main class="main">Sareak</main>
             <ul class="ul">
                 <li class="link"><a href="index.html">HASIERA</a></li>
                 <li class="link"><a href="digi.html">DIGITALIZAZIOA</a></li>
@@ -240,10 +241,105 @@
 
     <p class="p1">
         Polinomioaren bitar-irudikapena 1101111 da. CRC-6-GSM kodea 6 bitekoa
-=======
+        denez, gure kode bitarraren amaieran 6 zero gehitu ditugu.
+        Ondoren, zatiketa bitarra egin dugu, CRC emaitza lortzeko.
+    </p>
+
+    <p class="p1">
+        Prozesu osoa egin ondoren, gure emaitza 101001 izan da.
+        6 bit bakarrik erabili ditugu, CRC-6-GSM kodearen luzera hori delako.
+    </p>
+
+    <p class="p1">
+        <b>2.4 Egiaztapena</b>
+    </p>
+
+    <p class="p1">
+        Egiaztapena egiteko, jatorrizko zenbaki bitarrak hartu eta amaieran
+        aurretik lortutako 6 biteko CRC emaitza jarri dugu. Ondoren,
+        zatiketa bitarra egin dugu berriro.
+    </p>
+
+    <p class="p1">
+        Emaitza zeroz osatutako hondarra bada, informazioa behar bezala
+        egiaztatu dela esan dezakegu. Bestela, errore bat egon daiteke
+        transmisioan edo kalkuluan.
+    </p>
+
+    <p class="p1">
+        <b>3. PSK, ASK eta FSK grafikoak</b>
+    </p>
+
+    <p class="p1">
+        Gero, ditugun zenbaki bitar guztiak hartu ditugu, gure emaitza ere
+        kontuan hartuta, PSK(2)-ASK(2)-FSK(2) formula erabiliz.
+    </p>
+
+    <p class="p1">
+        Grafikoak egiteko, formulak adierazten digu 6 biteko grafikoak izan
+        behar direla. PSK-k fase-aldaketak adierazten ditu, ASK-k
+        anplitudearen aldaketak eta FSK-k maiztasunaren aldaketak.
+    </p>
+
+    <p class="p1">
+        Horretarako, gure kode bitarraren lehenengo 6 bitak hartu ditugu,
+        ondoren hurrengo 6 bitak, eta horrela jarraitu dugu grafiko guztiak
+        osatu arte. Gure kasuan 62 bit ditugu, eta ez dira 6ren multiploa.
+        Horregatik, amaieran 4 zero gehitu ditugu, guztira 66 bit izateko.
+    </p>
+
+    <p class="p1">
+        <b>3.1 Manchester grafikoak</b>
+    </p>
+
+    <p class="p1">
+        Ondoren, Manchester normalaren eta Manchester diferentzialaren
+        grafikoak egin ditugu, gure kode bitarra erabiliz.
+    </p>
+
+    <p class="p1">
+        <b>Manchester normala</b>
+    </p>
+
+    <p class="p1">
+        Manchester normalean bit bakoitzaren erdian trantsizio bat dago.
+        0 bitak maila altutik baxura egiten du trantsizioa, eta 1 bitak
+        maila baxutik altura.
+    </p>
+
+    <p class="p1">
+        <b>Manchester diferentziala</b>
+    </p>
+
+    <p class="p1">
+        Manchester diferentzialean, bit bakoitzaren erdian trantsizio bat
+        dago. Bit bakoitzaren hasieran trantsizioa dagoen edo ez dagoen
+        begiratzen dugu: 0 bitak trantsizioa adierazten du, eta 1 bitak
+        ez du hasierako trantsiziorik eragiten.
+        Grafikoa egiteko, maila baxuarekin hasi gara.
+    </p>
+
+    <p class="p1">
+        <b>4. Routerra</b>
+    </p>
+
+    <p class="p1">
+        Lehenik eta behin, WiFi-a aktibatu dugu gure routerrean, eta
+        sarearen izena eta pasahitza ezarri ditugu.
+    </p>
+
+    <p class="p1">
+        Gero, gure mugikorretik WiFi sarera konektatu gara eta zerbitzaria
+        piztu dugu. Ondoren, zerbitzaritik gure mugikorrerako ping-a egin
+        dugu, konexioa egiaztatzeko.
+    </p>
+
+    <p class="p1">
+        Azkenik, gure mugikorretik zerbitzarian dagoen HTML webgunearen
+        IP helbidea sartu dugu, webgunea behar bezala ikusten zela
+        egiaztatzeko.
+    </p>
+
 </body>
-<footer class="footer">
-    <p>© 2026 Web Enpresa. Erronkaren informazioa hemen jasota <br> <br> Taldekideak: Dani, Asier, Unai, Jafeth</p>
-</footer>
 </html>
->>>>>>> fbc5a3efb35c77f7eedada598de3c2937cd4fbca
+```
