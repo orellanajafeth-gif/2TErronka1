@@ -6,11 +6,11 @@ title: Datu baseak
 ---
 Erronka honetan, streaming-plataforma baten datu-basea diseinatu dugu, erabiltzaileak, profilak, edukiak eta harpidetzak modu antolatuan kudeatzeko. Horretarako, entitate-erlazio diagrama (ER diagrama) sortu dugu, sistemaren elementu nagusiak eta haien arteko erlazioak irudikatzeko.
 
-Lehenik eta behin, erabiltzaileak eta profilak definitu ditugu. Erabiltzaile bakoitzak bere datu pertsonalak ditu, hala nola helbide elektronikoa, izena, abizena eta pasahitza. Horrez gain, profilak sortu eta kudea daitezke, profil bakoitzak bere identifikatzailearekin eta informazio pertsonalarekin.
+Lehenik eta behin, erabiltzaileak eta perfilak definitu ditugu. Erabiltzaile bakoitzak bere datu pertsonalak ditu, hala nola NAN, helbide elektronikoa, izena, abizena eta pasahitza. Horrez gain, perfilak sortu eta kudea daitezke, perfil bakoitzak bere identifikatzailea du eta mota desberdineko izan ahal da (Pertsonala, Familiarra edo Infantila)
 
-Bestalde, plataformak eskaintzen dituen edukiak ere definitu ditugu. Eduki bakoitzak identifikatzaile bat, izenburua, adin-sailkapena, deskribapena eta urtea ditu. Edukiak hiru motatan banatzen dira: pelikulak, dokumentalak eta serieak. Mota bakoitzak bere ezaugarri espezifikoak ditu. Adibidez, pelikulak eta dokumentalak iraupenaren arabera deskribatzen dira, eta dokumentalek gai bat ere izan dezakete. Serieak, berriz, denboraldietan banatzen dira, eta denboraldi bakoitzak hainbat kapitulu izan ditzake.
+Bestalde, plataformak eskaintzen dituen edukiak ere definitu ditugu. Eduki bakoitzak identifikatzaile bat, izenburua, adin-sailkapena, deskribapena eta urtea ditu. Edukiak hiru motatan banatzen dira: pelikulak, dokumentalak eta serieak. Mota bakoitzak bere ezaugarri espezifikoak ditu. Adibidez, pelikulak; zuzendariaren izena eta pelikularen iraupena minututan eskatzen du, dokumentalak aldiz; iraupena minututan eta gaia (Natura eta animaliak, Kirolak, Gizartea eta kultura, Musika eta artea, Biografiak, Krimenak eta ikerketak). Serieak, berriz, denboraldietan banatzen dira, denboraldi bakoitzak zenbakietan identifikatzen da eta denboraldi bakoitzak hainbat kapitulu izan ditzake.
 
-Horrez gain, erabiltzaileek harpidetza-plan desberdinak izan ditzakete. Bi plan mota definitu ditugu: estandarra eta premiuma. Plan bakoitzak bere ezaugarriak ditu, eta harpidetzen bidez erabiltzaileek plataformako zerbitzuetara sarbidea dute. Harpidetzek hasiera- eta amaiera-datak dituzte, eta horien bidez harpidetzaren iraupena kontrola daiteke.
+Horrez gain, erabiltzaileek harpidetza-plan desberdinak izan ditzakete. Bi plan mota definitu ditugu; estandarra eta premiuma. Plan bakoitzak bere ezaugarriak ditu, eta harpidetzen bidez erabiltzaileek plataformako zerbitzuetara sarbidea dute. Harpidetzek hasiera- eta amaiera-datak dituzte, eta horien bidez harpidetzaren iraupena kontrola daiteke.
 
 Azkenik, entitateen arteko erlazioak eta kardinalitateak zehaztu ditugu, sistema osoaren funtzionamendua behar bezala irudikatzeko. Horrela, erabiltzaileen, profilen, edukien eta harpidetzen arteko loturak argi geratzen dira, eta datu-basearen egitura modu logiko eta antolatuan definitzen da.
 
@@ -22,268 +22,188 @@ Ondorioz, ER diagramaren helburua streaming-plataforma baten informazioa modu er
 ---
 ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien arteko erlazioak taula bihurtuz, atributuak zehaztuz eta gako primarioak (PK) eta gako arrotzak (FK) identifikatuz.
 
-- **HARPIDETZA** (ID_HARPIDETZA, Hasiera_data, Amaiera_data)
-- **PLANA** (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium)
-- **ERABILTZAILEA** (EMAILA, ID_PLANA, Izena, Abizena, Pasahitza)
-- **PERFIL** (ID_IZENA, EMAILA, Pertsonala, Familiarra, Infantila)
-- **IKUSI** (ID_IZENA, ID_EDUKIAK, Bistaratzea)
-- **EDUKIAK** (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena, Mota)
-- **PELIKULAK** (Zuzendaria, Iraupena_min)
+![eredu erlazioanala](img/db/ereduer.png)
 
-  - id: EDUKIKO FK (id)
-
-- **DOKU** (Gaia, Iraupena_min)
-
-  - id: EDUKIKO FK (id)
-
-- **SERIEAK**
-
-  - id: EDUKIKO FK (id)
-
-- **DENBORALDIAK** (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia)
-- **KAPITULUAK** (ID_KAPITULUA, ID_DENBORALDIA, Izena)
 
 ### 3. Datu basea normalizatu (1F-2F-3F):
 ---
 Ondoren, datu-basearen normalizazioa landu dugu, hiru forma normalak aplikatuz. Lehen forma normalean (1F), atributu bakoitzak balio bakarra izatea eta datuak behar bezala antolatuta egotea ziurtatu dugu. Bigarren forma normalean (2F), menpekotasun partzialak aztertu ditugu, atributu bakoitza gako primario osoaren menpe egon dadin. Azkenik, hirugarren forma normalean (3F), menpekotasun iragankorrak aztertu ditugu, datuen errepikapenak eta eguneratze-arazoak saihesteko.
 
 
-#### 1. HARPIDETZA
+#### HARPIDETZA
 
-```text
-HARPIDETZA (ID_HARPIDETZA, Hasiera_data, Amaiera_data)
+**Erlazioa:** `HARPIDETZA (ID_HARPIDETZA, Hasiera_data, Amaiera_data)`
 
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
-
-2F? Bai, dependentzia partziala ez dagoelako
-
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
-```
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Bai. Ez dago dependentzia partzialik.
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik (guztiak).
 
 ---
 
-#### 2. PLANA
+#### PLANA
 
-```text
-PLANA (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium)
+**Hasierako erlazioa:** `PLANA (ID_PLANA, ID_HARPIDETZA, Mota)`
 
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Ez. Dependentzia partziala dago.
 
-2F? Ez, dependentzia partziala dagoelako.
-```
+| Gakoa | Mendeko atributuak |
+|---|---|
+| `ID_PLANA` | `Mota` |
+| `ID_HARPIDETZA` | — |
 
-#### Dependentzia partziala
+Deskonposizioa:
 
-| ID_PLANA      | Estandarra, Premium |
-| ------------- | ------------------- |
-| ID_HARPIDETZA |                     |
+- `PLANA (ID_PLANA, Mota)`
+- `PLANA (ID_PLANA, ID_HARPIDETZA)`
 
-#### Deskonposaketa
-
-* `ID_PLANA (Estandarra, Premium)`
-* `PLANA (ID_PLANA, ID_HARPIDETZA)`
-
-```text
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
-```
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik (guztiak).
 
 ---
 
-#### 3. ERABILTZAILEA
+#### ERABILTZAILEA
 
-```text
-ERABILTZAILEA (EMAILA, ID_PLANA, Izena, Abizena, Pasahitza)
+**Hasierako erlazioa:** `ERABILTZAILEA (NAN, ID_PLANA, Izena, Abizena, Pasahitza)`
 
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Ez. Dependentzia partziala dago.
 
-2F? Ez, dependentzia partziala dagoelako.
-```
+| Gakoa | Mendeko atributuak |
+|---|---|
+| `NAN` | `Izena`, `Abizena`, `Pasahitza` |
+| `ID_PLANA` | — |
 
-#### Dependentzia partziala
+Deskonposizioa (jatorrizko testuan adierazitakoa):
 
-| EMAILA   | Izena, Abizena, Pasahitza |
-| -------- | ------------------------- |
-| ID_PLANA |                           |
+- `NAN (Izena, Abizena, Pasahitza)`
+- `ERABILTZAILEA (EMAILA eta ID_PLANA)`
 
-#### Deskonposaketa
-
-* `EMAILA (Izena, Abizena, Pasahitza)`
-* `ERABILTZAILEA (EMAILA eta ID_PLANA)`
-
-```text
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
-```
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik (guztiak).
 
 ---
 
-#### 4. PERFIL
+#### PERFIL
 
-```text
-PERFIL (ID_IZENA, EMAILA, Pertsonala, Familiarra, Infantila)
+**Hasierako erlazioa:** `PERFIL (ID_IZENA, NAN, Pertsonala, Familiarra, Infantila)`
 
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Ez. Dependentzia partziala dago.
 
-2F? Ez, dependentzia partziala dagoelako.
-```
+| Gakoa | Mendeko atributuak |
+|---|---|
+| `ID_IZENA` | `Pertsonala`, `Familiarra`, `Infantila` |
+| `NAN` | — |
 
-#### Dependentzia partziala
+Deskonposizioa:
 
-| ID_IZENA | Pertsonala, Familiarra, Infantila |
-| -------- | --------------------------------- |
-| EMAILA   |                                   |
+- `ID_IZENA (Pertsonala, Familiarra, Infantila)`
+- `PERFIL (ID_IZENA eta NAN)`
 
-#### Deskonposaketa
-
-* `ID_IZENA (Pertsonala, Familiarra, Infantila)`
-* `PERFIL (ID_IZENA eta EMAILA)`
-
-```text
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
-```
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik (guztiak).
 
 ---
 
-#### 5. IKUSI
+#### IKUSI
 
-```text
-IKUSI (ID_IZENA, ID_EDUKIAK, Bistaratzea)
+**Hasierako erlazioa:** `IKUSI (ID_IZENA, ID_EDUKIAK, Bistaratzea)`
 
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Ez. Dependentzia partziala dago.
 
-2F? Ez, dependentzia partziala dagoelako.
-```
+| Gakoa | Mendeko atributuak |
+|---|---|
+| `ID_IZENA` | — |
+| `ID_EDUKIAK` | — |
+| `IKUSI` | `Bistaratzea` |
 
-#### Dependentzia partziala
+Deskonposizioa:
 
-| ID_IZENA   |             |
-| ---------- | ----------- |
-| ID_EDUKIAK |             |
-| IKUSI      | Bistaratzea |
+- `IKUSI (ID_IZENA eta ID_EDUKIAK, Bistaratzea)`
 
-#### Deskonposaketa
-
-* `IKUSI (ID_IZENA eta ID_EDUKIAK, Bistaratzea)`
-
-```text
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
-```
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik (guztiak).
 
 ---
 
-#### 6. EDUKIAK
+#### EDUKIAK
 
-```text
-EDUKIAK (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena,
-Izenburua, Mota)
+**Erlazioa:** `EDUKIAK (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena, Izenburua, Mota)`
 
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
-
-2F? Bai, dependentzia partziala ez dagoelako
-
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
-```
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Bai. Ez dago dependentzia partzialik.
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik (guztiak).
 
 ---
 
-#### 7. PELIKULAK
+#### PELIKULAK
 
-```text
-PELIKULAK (Zuzendaria, Iraupena_min)
+**Erlazioa:** `PELIKULAK (Zuzendaria, Iraupena_min)`
 
-id: EDUKIKO FK (id)
-
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
-
-2F? Bai, dependentzia partziala ez dagoelako
-
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako
-```
+- **IDa:** EDUKIKO FK (`id`).
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Bai. Ez dago dependentzia partzialik.
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik.
 
 ---
 
-#### 8. DOKU
+#### DOKU
 
-```text
-DOKU (Gaia, Iraupena_min)
+**Erlazioa:** `DOKU (Gaia, Iraupena_min)`
 
-id: EDUKIKO FK (id)
-
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
-
-2F? Bai, dependentzia partziala ez dagoelako
-
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako
-```
+- **IDa:** EDUKIKO FK (`id`).
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Bai. Ez dago dependentzia partzialik.
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik.
 
 ---
 
-#### 9. SERIEAK
+#### SERIEAK
 
-```text
-SERIEAK
-
-id: EDUKIKO FK (id)
-
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
-
-2F? Bai, dependentzia partziala ez dagoelako
-
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako
-```
+- **IDa:** EDUKIKO FK (`id`).
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Bai. Ez dago dependentzia partzialik.
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik.
 
 ---
 
-#### 10. DENBORALDIAK
+#### DENBORALDIAK
 
-```text
-DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia)
+**Hasierako erlazioa:** `DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia)`
 
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Ez. Dependentzia partziala dago.
 
-2F? Bai, dependentzia partziala ez dagoelako
-```
+| Gakoa | Mendeko atributuak |
+|---|---|
+| `ID_DENBORALDIA` | `Zenbakia` |
+| `ID_EDUKIAK` | — |
 
-#### Dependentzia partziala
+Deskonposizioa:
 
-| ID_DENBORALDIA | Zenbakia |
-| -------------- | -------- |
-| ID_EDUKIAK     |          |
+- `ID_DENBORALDIAK (Zenbakia)`
+- `DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK)`
 
-#### Deskonposaketa
-
-* `ID_DENBORALDIAK (Zenbakia)`
-* `DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK)`
-
-```text
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
-```
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik (guztiak).
 
 ---
 
-#### 11. KAPITULUAK
+#### KAPITULUAK
 
-```text
-KAPITULUAK (ID_KAPITULUA, ID_DENBORALDIA, Izena)
+**Hasierako erlazioa:** `KAPITULUAK (ID_KAPITULUA, ID_DENBORALDIA, Izena)`
 
-1F? Bai, ez dagoelako errepikapenik, Datuak atomikoak dira.
+- **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
+- **2FN:** Ez. Dependentzia partziala dago.
 
-2F? Bai, dependentzia partziala ez dagoelako
-```
+| Gakoa | Mendeko atributuak |
+|---|---|
+| `ID_KAPITULUA` | `Izena` |
+| `ID_DENBORALDIA` | — |
 
-#### Dependentzia partziala
+Deskonposizioa:
 
-| ID_KAPITULUA   | Izena |
-| -------------- | ----- |
-| ID_DENBORALDIA |       |
+- `ID_KAPITULUA (Izena)`
+- `ID_DENBORALDIAK (ID_KAPITULUA, ID_DENBORALDIA)`
 
-#### Deskonposaketa
-
-* `ID_KAPITULUA (Izena)`
-* `ID_DENBORALDIAK (ID_KAPITULUA, ID_DENBORALDIA)`
-
-```text
-3F? Bai, dependentzia funtzional transitiboa ez dagoelako (GUZTIAK)
-```
+- **3FN:** Bai. Ez dago dependentzia funtzional transitiborik (guztiak).
 
 
 
