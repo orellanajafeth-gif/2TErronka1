@@ -162,10 +162,10 @@ Horrela geratu zaizkigu grafikoak:
 
 **PSK, ASK eta FSK grafikoak:**
 
-![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.1.jpg)
-![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.2.jpg)
-![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.3.jpg)
-![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.4.jpg)
+   ![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.1.jpg)
+   ![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.2.jpg)
+   ![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.3.jpg)
+   ![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.4.jpg)
 
 ## 1.3.1 Manchester kodeketa
 ---
@@ -177,7 +177,7 @@ Bit bakoitzak trantsizio bat du erdian: 0a altutik baxura doa, eta 1a baxutik al
 
 **Manchester normalaren grafikoa:**
 
-![Manchester normala](manchester-normala.png)
+   ![Manchester normala](img/sareak/manches1.jpeg)
 
 ###  Manchester diferentziala
 
@@ -187,4 +187,4 @@ Grafikoarekin hasteko, maila baxua aukeratu dut.
 
 **Manchester diferentzialaren grafikoa:**
 
-![Manchester diferentziala](manchester-diferentziala.png)
+   ![Manchester diferentziala](img/sareak/manches2.jpeg)
