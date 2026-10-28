@@ -162,7 +162,10 @@ Horrela geratu zaizkigu grafikoak:
 
 **PSK, ASK eta FSK grafikoak:**
 
-![PSK, ASK eta FSK grafikoak](irudia-grafikoak.png)
+![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.1.jpg)
+![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.2.jpg)
+![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.3.jpg)
+![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.4.jpg)
 
 ## 1.3.1 Manchester kodeketa
 ---
