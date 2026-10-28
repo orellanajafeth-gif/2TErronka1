@@ -3,6 +3,8 @@ body {
     background-color: #eaf0f7;
     margin: 20px;
     padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .h1 {
@@ -16,17 +18,23 @@ body {
     padding: 1em;
     margin-bottom: 1em;
     box-sizing: border-box;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
+    margin-bottom: 4%;
 }
 
 .button {
-    background-color: #2a9d8f;
-    color: #ffffff;
+    background-color: #17365d;
+    color: #f8f3f3;
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
+    display: inline-block;
+    margin: 0.5em;
+}
+.button:hover {
+    background-color: #1f5685;
 }
 
 .ul {
@@ -35,7 +43,7 @@ body {
     display: center;
     padding: 10px;
     margin: 10px;
-    text-align: center;
+    color: #17365d;
 }
 
 .link {
@@ -68,15 +76,16 @@ a {
     background-color: #1f5685;
     color: #ffffff;
     text-align: center;
-    padding: 1em;
-    position: fixed;
+    padding: 0.4em;
     bottom: 0;
-    width: 100%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .main {
     font-size: 1.5em;
-    color: #263746;
+    color: #f6f6f6;
     text-align: center;
     margin-bottom: 1em;
 }
@@ -88,4 +97,35 @@ a {
     margin-top: 20px;
     height: 250px;
     width: 400px;
+}
+.fotosgrandes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    height: 350px;
+    width: 500px;
+}
+.span {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    border: 1px solid #050505;
+}
+
+.table th, .table td {
+    border: 1px solid #050505;
+    padding: 0.5em;
+    text-align: left;
 }
