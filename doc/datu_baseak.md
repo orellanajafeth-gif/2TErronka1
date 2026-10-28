@@ -72,13 +72,13 @@ PLANA (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium)
 2F? Ez, dependentzia partziala dagoelako.
 ```
 
-### Dependentzia partziala
+## Dependentzia partziala
 
 | ID_PLANA      | Estandarra, Premium |
 | ------------- | ------------------- |
 | ID_HARPIDETZA |                     |
 
-### Deskonposaketa
+## Deskonposaketa
 
 * `ID_PLANA (Estandarra, Premium)`
 * `PLANA (ID_PLANA, ID_HARPIDETZA)`
@@ -99,13 +99,13 @@ ERABILTZAILEA (EMAILA, ID_PLANA, Izena, Abizena, Pasahitza)
 2F? Ez, dependentzia partziala dagoelako.
 ```
 
-### Dependentzia partziala
+## Dependentzia partziala
 
 | EMAILA   | Izena, Abizena, Pasahitza |
 | -------- | ------------------------- |
 | ID_PLANA |                           |
 
-### Deskonposaketa
+## Deskonposaketa
 
 * `EMAILA (Izena, Abizena, Pasahitza)`
 * `ERABILTZAILEA (EMAILA eta ID_PLANA)`
@@ -126,13 +126,13 @@ PERFIL (ID_IZENA, EMAILA, Pertsonala, Familiarra, Infantila)
 2F? Ez, dependentzia partziala dagoelako.
 ```
 
-### Dependentzia partziala
+## Dependentzia partziala
 
 | ID_IZENA | Pertsonala, Familiarra, Infantila |
 | -------- | --------------------------------- |
 | EMAILA   |                                   |
 
-### Deskonposaketa
+## Deskonposaketa
 
 * `ID_IZENA (Pertsonala, Familiarra, Infantila)`
 * `PERFIL (ID_IZENA eta EMAILA)`
@@ -153,14 +153,14 @@ IKUSI (ID_IZENA, ID_EDUKIAK, Bistaratzea)
 2F? Ez, dependentzia partziala dagoelako.
 ```
 
-### Dependentzia partziala
+## Dependentzia partziala
 
 | ID_IZENA   |             |
 | ---------- | ----------- |
 | ID_EDUKIAK |             |
 | IKUSI      | Bistaratzea |
 
-### Deskonposaketa
+## Deskonposaketa
 
 * `IKUSI (ID_IZENA eta ID_EDUKIAK, Bistaratzea)`
 
@@ -243,13 +243,13 @@ DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia)
 2F? Bai, dependentzia partziala ez dagoelako
 ```
 
-### Dependentzia partziala
+## Dependentzia partziala
 
 | ID_DENBORALDIA | Zenbakia |
 | -------------- | -------- |
 | ID_EDUKIAK     |          |
 
-### Deskonposaketa
+## Deskonposaketa
 
 * `ID_DENBORALDIAK (Zenbakia)`
 * `DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK)`
@@ -270,13 +270,13 @@ KAPITULUAK (ID_KAPITULUA, ID_DENBORALDIA, Izena)
 2F? Bai, dependentzia partziala ez dagoelako
 ```
 
-### Dependentzia partziala
+## Dependentzia partziala
 
 | ID_KAPITULUA   | Izena |
 | -------------- | ----- |
 | ID_DENBORALDIA |       |
 
-### Deskonposaketa
+## Deskonposaketa
 
 * `ID_KAPITULUA (Izena)`
 * `ID_DENBORALDIAK (ID_KAPITULUA, ID_DENBORALDIA)`
