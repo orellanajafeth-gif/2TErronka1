@@ -76,7 +76,7 @@ Gure lana sareko kable bat prestatzea eta haren muturrak konektatzea izan da. Mu
 7. **Konexioak egiaztatu ditugu.**  
    Hariak behar bezala sartuta eta finkatuta zeudela begiratu dugu.
 
-# 1.2 CRC
+# 1.2 Pasahitza
 ---
 Egin dugun lehenengo gauza pasahitz bat sortzea izan zen, inplementatuta ditugun pasahitzen politikak kontuan hartuta. Hau da erabiltzea erabaki genuen pasahitza: "Admin1@". Gure helburu nagusia ahalik eta segurtasun mailarik handiena lortzea zen. Gero letra bakoitza hartu eta hamartarrera pasatu dugu, hau da emaitza:
 
@@ -167,7 +167,7 @@ Horrela geratu zaizkigu grafikoak:
    ![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.3.jpg)
    ![PSK, ASK eta FSK grafikoak](img/sareak/ariketa1.4.jpg)
 
-## 1.3.1 Manchester kodeketa
+## 1.3.1 Manchester grafikoak
 ---
 Ondoren, Manchester normalaren eta Manchester diferentzialaren grafiko batzuk egin ditugu.
 
@@ -181,10 +181,26 @@ Bit bakoitzak trantsizio bat du erdian: 0a altutik baxura doa, eta 1a baxutik al
 
 ###  Manchester diferentziala
 
-Sekuentzia bitar bera erabili dut. Kasu horretan, bit bakoitzaren erdian beti dago trantsizio bat. Gainera, bita 0 bada, hasierako trantsizioa dago; 1 bada, ez dago hasierako trantsiziorik.
+ Kasu horretan, bit bakoitzaren erdian beti dago trantsizio bat. Gainera, bita 0 bada, hasierako trantsizioa dago; 1 bada, ez dago hasierako trantsiziorik.
 
 Grafikoarekin hasteko, maila baxua aukeratu dut.
 
 **Manchester diferentzialaren grafikoa:**
 
    ![Manchester diferentziala](img/sareak/manches2.jpeg)
+
+## 1.4 Routerra
+
+Lehenik eta behin, WiFi-a aktibatu behar dugu gure routerrean, eta izena eta pasahitza eman behar dizkiogu
+
+(Imagen)
+
+
+Gero, gure mugikorretik WiFi-ra konektatuko gara, zerbitzaria piztuko dugu, eta zerbitzaritik gure mugikorrera ping-a egiten saiatuko gara. Halaber, gure mugikorretik, zerbitzarian dugun html ip-a jarriko dugu, errematatzeko
+
+
+(imagen)
+
+(imagen)
+
+
