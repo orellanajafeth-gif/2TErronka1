@@ -3,24 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Enpresa</title>
+    <title>Sareak</title>
     <link rel="stylesheet" href="css/styles.css">
-    <header>    
+
+    <header>
         <nav class="nav">
-            <main class="main"> Sareak </main>
+            <main class="main">Sareak</main>
             <ul class="ul">
-            <li class="link"><a href="index.html">HASIERA</a></li>
-            <li class="link"><a href="datubase.html">DATU BASE</a></li>
-            <li class="link"><a href="digi.html">DIGITALIZAZIOA</a></li>
-            <li class="link"><a href="markatze.html">MARKATZE</a></li>
-            <li class="link"><a href="SE.html">SISTEMA ERAGILEAK</a></li>
+                <li class="link"><a href="index.html">HASIERA</a></li>
+                <li class="link"><a href="digi.html">DIGITALIZAZIOA</a></li>
+                <li class="link"><a href="markatze.html">MARKATZE</a></li>
+                <li class="link"><a href="sareak.html">SAREAK</a></li>
+                <li class="link"><a href="SE.html">SISTEMA ERAGILEAK</a></li>
             </ul>
         </nav>
     </header>
 </head>
-<body class="body">
-    <h1 class="h1">SAREAK</h1>
-    <p class="p1"></p>
 
-</body>
-</html>
+<body class="body">
+
+    <h1 class="h1">Sareak</h1>
+
+    <p class="p1">
+        <b>1. Sareko kablea egiteko prozesua</b>
+    </p>
+
+    <p class="p1">
+        Erronka honetan, OSI ereduaren lehen bi mailak landu ditugu:
+        1. maila fisikoa eta 2. maila, datu-loturakoa. Sare-konexioa osatu
+        dugu, datuak hainbat formatutan kodetu ditugu eta webgunea hari
+        gabeko gailu batetik probatu dugu.
+    </p>
+
+    <p class="p1">
+        Lehenik, gure taldeak egindako sare-kableak patch panelera konektatu
+        ditugu, eta handik switchera. Ondoren, sisteman sartzeko pasahitzetako
+        bat ASCII kode bihurtu dugu. Datu horiei CRC-6-GSM errore-kontrol
+        kodea gehitu diegu, polinomio hau erabiliz:
+        (x^6+x^5+x^3+x^2+x+1).
+    </p>
+
+    <p class="p1">
+        Datuak prestatu ondoren, dagokion modulazioa aukeratu eta marraztu
+        dugu —adibidez, ASK, PSK edo FSK—, eta Manchester kodeketaren
+        irudikapena ere egin dugu. Azkenik, marrazkiak webgunera igo ditugu
+        eta webgunea telefono mugikor edo eramangarri baten bidez probatu dugu.
+    </p>
+
+    <p class="p1">
+        <b>1.1 RJ45 ar konektorea egitea</b>
+    </p>
+
+    <p class="p1">
+        Gure lana RJ45 ar konektorea duen sareko kable bat prestatzea izan
+        da. Kablearen mutur batean RJ45 ar konektorea muntatu dugu, eta beste
+        muturra patch panelera konektatu dugu.
+    </p>
+
+    <p class="p1">
+        <b>Erabilitako materialak:</b>
+    </p>
+
+    <p class="p1">
+        - UTP sare-kablea<br>
+        - RJ45 ar konektorea<br>
+        - Konektoreak krispatzeko tresna<br>
+        - Kable-ebakitzailea edo guraizeak
+    </p>
+
+    <p class="p1">
+        <b>Pausoz pauso:</b>
+    </p>
+
+    <p class="p1">
+        1. Kablearen muturretik kanpoko estalkia kendu dugu.
+    </p>
+
+    <p class="p1">
+        2. Barruko hari-bikoteak askatu eta koloreen arabera bereizi ditugu.
+    </p>
+
+    <p class="p1">
+        3. Hariak B arauaren ordenan lerrokatu ditugu: zuri-laranja, laranja,
+        zuri-berdea, urdina, zuri-urdina, berdea, zuri-marroia eta marroia.
+    </p>
+
+    <p class="p1">
+        4. Hari-muturrak luzera berean moztu eta RJ45 konektorean sartu ditugu,
+        ordena mantenduz.
+    </p>
+
+    <p class="p1">
+        5. Konektorea krispagailuan jarri eta kableari finkatu diogu.
+        Azkenik, hariak behar bezala sartuta eta finkatuta zeudela begiratu dugu.
+    </p>
+
+    <p class="p1">
+        <b>1.2 Kablea patch panelera konektatzea</b>
+    </p>
+
+    <p class="p1">
+        Gure lana sareko kable bat prestatzea eta haren muturrak konektatzea
+        izan da. Mutur batean RJ45ko hormako hartune batean konektatu dugu,
+        eta beste muturra patch panel batean.
+    </p>
+
+    <p class="p1">
+        <b>Erabili ditugun materialak:</b>
+    </p>
+
+    <p class="p1">
+        - UTP sare-kablea, lau bikote bihurriturekin<br>
+        - RJ45ko hormako hartunea<br>
+        - Patch panela<br>
+        - Krone tresna edo kable-zulagailua<br>
+        - Kable-ebakitzailea edo guraizeak
+    </p>
+
+    <p class="p1">
+        <b>Pausoz pauso:</b>
+    </p>
+
+    <p class="p1">
+        1. Kablea neurtu eta moztu dugu, behar genuen luzera kontuan hartuta.
+    </p>
+
+    <p class="p1">
+        2. Kablearen muturretik kanpoko estalkia kendu dugu, barruko hariak
+        ez kaltetzeko.
+    </p>
+
+    <p class="p1">
+        3. Barruko lau bikoteak askatu eta koloreen arabera bereizi ditugu:
+        laranja, berdea, urdina eta marroia, bakoitza hari zuri marradunarekin.
+    </p>
+
+    <p class="p1">
+        4. Hariak RJ45 hartuneko eta patch paneleko kolore-marken arabera
+        kokatu ditugu. B araua erabili dugu bi muturretan.
+    </p>
+
+    <p class="p1">
+        5. Hari bakoitza dagokion zirrikituan jarri eta krone tresnarekin
+        sakatu dugu. Horrela, kontaktuek hariak finkatu dituzte eta soberan
+        zegoen zatia moztu dugu.
+    </p>
+
+    <p class="p1">
+        6. Kablearen beste muturreko hariak patch paneleko kolore-markei
+        jarraituz kokatu eta finkatu ditugu.
+    </p>
+
+    <p class="p1">
+        7. Azkenik, konexioak egiaztatu ditugu, hariak behar bezala sartuta
+        eta finkatuta zeudela begiratuz.
+    </p>
+
+    <p class="p1">
+        <b>2. Pasahitza</b>
+    </p>
+
+    <p class="p1">
+        Egin dugun lehenengo gauza pasahitz bat sortzea izan zen,
+        inplementatuta ditugun pasahitzen politikak kontuan hartuta.
+        Hau da erabiltzea erabaki genuen pasahitza: "Admin1@".
+        Gure helburu nagusia ahalik eta segurtasun-mailarik handiena lortzea zen.
+        Gero, letra bakoitza hartu eta hamartarrera pasatu dugu.
+        Hau da emaitza:
+    </p>
+
+    <p class="p1">
+        - A: 65<br>
+        - d: 100<br>
+        - m: 109<br>
+        - i: 105<br>
+        - n: 110<br>
+        - 1: 49<br>
+        - @: 64
+    </p>
+
+    <p class="p1">
+        Zenbaki hamartarra atera ondoren, zenbaki bitarrera pasatu dugu,
+        gero CRC-6-GSM egin ahal izateko. Hau da emaitza:
+    </p>
+
+    <p class="p1">
+        - A: 01000001<br>
+        - d: 01100100<br>
+        - m: 01101101<br>
+        - i: 01101001<br>
+        - n: 01101110<br>
+        - 1: 00110001<br>
+        - @: 01000000
+    </p>
+
+    <p class="p1">
+        <b>2.1 Hamartarretik bitarrera pasatzea</b>
+    </p>
+
+    <p class="p1">
+        Letra bakoitzaren bitarra lortzeko, dezimaletik bitarrera pasatzeko
+        prozesua jarraitu dugu. Adibide gisa, "A" letra erabili dugu,
+        haren balio hamartarra 65 baita.
+    </p>
+
+    <p class="p1">
+        Zatiketak egin ondoren, hondarrak azkenetik hasita lehenengora arte
+        ordenatu ditugu. Kasu honetan, emaitza 01000001 da.
+        ASCII kodean 8 bit erabiltzen direnez, beharrezkoa denean hasieran
+        zeroak gehitzen dira. Prozedura bera erabili dugu pasahitzaren
+        gainerako karaktereekin.
+    </p>
+
+    <p class="p1">
+        <b>2.2 Karaktere guztiak bitarrera bihurtzea</b>
+    </p>
+
+    <p class="p1">
+        Karaktere guztiak bitarrera bihurtu ondoren, ordenan jarri ditugu,
+        ilara bakarrean eta espaziorik gabe.
+    </p>
+
+    <p class="p1">
+        01000001011001000110110101101001011011100011000101000000
+    </p>
+
+    <p class="p1">
+        <b>2.3 CRC-6-GSM kalkulua</b>
+    </p>
+
+    <p class="p1">
+        Bitarrak ilaran jarri ondoren, CRC-6-GSM formulari jarraitu diogu.
+        Kasu honetan, polinomioa honako hau da:
+        x^6+x^5+x^3+x^2+x+1.
+    </p>
+
+    <p class="p1">
+        Polinomioaren bitar-irudikapena 1101111 da. CRC-6-GSM kodea 6 bitekoa
