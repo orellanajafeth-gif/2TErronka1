@@ -20,7 +20,7 @@
 </head>
 <body class="body">
     <h1 class="h1">Datu Base</h1>
-    <p class="p1"><b> 1. E/R sortu </b></p>
+    <h2><b> 1. E/R sortu </b></h2>
     <p class="p1">
 Erronka honetan, streaming-plataforma baten datu-basea diseinatu dugu, erabiltzaileak, profilak, edukiak eta harpidetzak modu antolatuan kudeatzeko. Horretarako, entitate-erlazio diagrama (ER diagrama) sortu dugu, sistemaren elementu nagusiak eta haien arteko erlazioak irudikatzeko.
     </p>
@@ -46,26 +46,26 @@ Ondorioz, ER diagramaren helburua streaming-plataforma baten informazioa modu er
 ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien arteko erlazioak taula bihurtuz, atributuak zehaztuz eta gako primarioak (PK) eta gako arrotzak (FK) identifikatuz.
 
 
-    <p class="p1"> - **HARPIDETZA** (ID_HARPIDETZA, Hasiera_data, Amaiera_data) </p>
-    <p class="p1"> - **PLANA** (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium) </p>
-    <p class="p1"> - **ERABILTZAILEA** (EMAILA, ID_PLANA, Izena, Abizena, Pasahitza) </p>
-    <p class="p1"> - **PERFIL** (ID_IZENA, EMAILA, Pertsonala, Familiarra, Infantila) </p>
-    <p class="p1"> - **IKUSI** (ID_IZENA, ID_EDUKIAK, Bistaratzea) </p>
-    <p class="p1"> - **EDUKIAK** (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena, Mota) </p>
-    <p class="p1"> - **PELIKULAK** (Zuzendaria, Iraupena_min) </p>
+    <p class="p1"> - HARPIDETZA (ID_HARPIDETZA, Hasiera_data, Amaiera_data) </p>
+    <p class="p1"> - PLANA (ID_PLANA, ID_HARPIDETZA, Estandarra, Premium) </p>
+    <p class="p1"> - ERABILTZAILEA (EMAILA, ID_PLANA, Izena, Abizena, Pasahitza) </p>
+    <p class="p1"> - PERFIL (ID_IZENA, EMAILA, Pertsonala, Familiarra, Infantila) </p>
+    <p class="p1"> - IKUSI (ID_IZENA, ID_EDUKIAK, Bistaratzea) </p>
+    <p class="p1"> - EDUKIAK (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena, Mota) </p>
+    <p class="p1"> - PELIKULAK (Zuzendaria, Iraupena_min) </p>
 
   - id: EDUKIKO FK (id)
 
-    <p class="p1"> - **DOKU** (Gaia, Iraupena_min) </p>
+    <p class="p1"> - DOKU (Gaia, Iraupena_min) </p>
 
   - id: EDUKIKO FK (id)
 
-    <p class="p1"> - **SERIEAK** </p>
+    <p class="p1"> - SERIEAK </p>
 
   - id: EDUKIKO FK (id)
 
-    <p class="p1"> - **DENBORALDIAK** (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia) </p>
-    <p class="p1"> - **KAPITULUAK** (ID_KAPITULUA, ID_DENBORALDIA, Izena) </p>
+    <p class="p1"> - DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia) </p>
+    <p class="p1"> - KAPITULUAK (ID_KAPITULUA, ID_DENBORALDIA, Izena) </p>
 
     <p class="p1"> <b>3. Datu basea normalizatu (1F-2F-3F) </b></p>
 
@@ -77,6 +77,6 @@ ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien 
 
 </body>
 <footer class="footer">
-    <p class="p1">© 2026 Web Enpresa. Erronkaren informazioa hemen jasota <br> <br> Taldekideak: Dani, Asier, Unai, Jafeth</p>
+    <p>© 2026 Web Enpresa. Erronkaren informazioa hemen jasota <br> <br> Taldekideak: Dani, Asier, Unai, Jafeth</p>
 </footer>
 </html>
