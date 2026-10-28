@@ -193,7 +193,6 @@ Grafikoarekin hasteko, maila baxua aukeratu dut.
 
 Lehenik eta behin, WiFi-a aktibatu behar dugu gure routerrean, eta izena eta pasahitza eman behar dizkiogu
 
-(img/sareak/wifia.jpg)
 
 
 Gero, gure mugikorretik WiFi-ra konektatuko gara, zerbitzaria piztuko dugu, eta zerbitzaritik gure mugikorrera ping-a egiten saiatuko gara. Halaber, gure mugikorretik, zerbitzarian dugun html ip-a jarriko dugu, errematatzeko
