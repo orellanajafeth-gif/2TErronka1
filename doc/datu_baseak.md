@@ -21,6 +21,7 @@ Ondorioz, ER diagramaren helburua streaming-plataforma baten informazioa modu er
 ### 2. Modu erlazionala egin:
 ---
 ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien arteko erlazioak taula bihurtuz, atributuak zehaztuz eta gako primarioak (PK) eta gako arrotzak (FK) identifikatuz.
+
 ![eredu erlazioanala](img/db/ereduer.png)
 
 
@@ -29,7 +30,7 @@ ER diagrama egin ondoren, zerrenda erlazionala sortu dugu, entitateak eta haien 
 Ondoren, datu-basearen normalizazioa landu dugu, hiru forma normalak aplikatuz. Lehen forma normalean (1F), atributu bakoitzak balio bakarra izatea eta datuak behar bezala antolatuta egotea ziurtatu dugu. Bigarren forma normalean (2F), menpekotasun partzialak aztertu ditugu, atributu bakoitza gako primario osoaren menpe egon dadin. Azkenik, hirugarren forma normalean (3F), menpekotasun iragankorrak aztertu ditugu, datuen errepikapenak eta eguneratze-arazoak saihesteko.
 
 
-## HARPIDETZA
+### HARPIDETZA
 
 **Erlazioa:** `HARPIDETZA (ID_HARPIDETZA, Hasiera_data, Amaiera_data)`
 
@@ -39,7 +40,7 @@ Ondoren, datu-basearen normalizazioa landu dugu, hiru forma normalak aplikatuz. 
 
 ---
 
-## PLANA
+### PLANA
 
 **Hasierako erlazioa:** `PLANA (ID_PLANA, ID_HARPIDETZA, Mota)`
 
@@ -60,7 +61,7 @@ Deskonposizioa:
 
 ---
 
-## ERABILTZAILEA
+### ERABILTZAILEA
 
 **Hasierako erlazioa:** `ERABILTZAILEA (NAN, ID_PLANA, Izena, Abizena, Pasahitza)`
 
@@ -81,7 +82,7 @@ Deskonposizioa (jatorrizko testuan adierazitakoa):
 
 ---
 
-## PERFIL
+### PERFIL
 
 **Hasierako erlazioa:** `PERFIL (ID_IZENA, NAN, Pertsonala, Familiarra, Infantila)`
 
@@ -102,7 +103,7 @@ Deskonposizioa:
 
 ---
 
-## IKUSI
+### IKUSI
 
 **Hasierako erlazioa:** `IKUSI (ID_IZENA, ID_EDUKIAK, Bistaratzea)`
 
@@ -123,7 +124,7 @@ Deskonposizioa:
 
 ---
 
-## EDUKIAK
+### EDUKIAK
 
 **Erlazioa:** `EDUKIAK (ID_EDUKIAK, Adin_sailkapena, Izenburua, Urtea, Deskribapena, Izenburua, Mota)`
 
@@ -133,7 +134,7 @@ Deskonposizioa:
 
 ---
 
-## PELIKULAK
+### PELIKULAK
 
 **Erlazioa:** `PELIKULAK (Zuzendaria, Iraupena_min)`
 
@@ -144,7 +145,7 @@ Deskonposizioa:
 
 ---
 
-## DOKU
+### DOKU
 
 **Erlazioa:** `DOKU (Gaia, Iraupena_min)`
 
@@ -155,7 +156,7 @@ Deskonposizioa:
 
 ---
 
-## SERIEAK
+### SERIEAK
 
 - **IDa:** EDUKIKO FK (`id`).
 - **1FN:** Bai. Ez dago errepikapenik; datuak atomikoak dira.
@@ -164,7 +165,7 @@ Deskonposizioa:
 
 ---
 
-## DENBORALDIAK
+### DENBORALDIAK
 
 **Hasierako erlazioa:** `DENBORALDIAK (ID_DENBORALDIA, ID_EDUKIAK, Zenbakia)`
 
@@ -185,7 +186,7 @@ Deskonposizioa:
 
 ---
 
-## KAPITULUAK
+### KAPITULUAK
 
 **Hasierako erlazioa:** `KAPITULUAK (ID_KAPITULUA, ID_DENBORALDIA, Izena)`
 
