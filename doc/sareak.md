@@ -154,7 +154,7 @@ Emaitza `0000000` bada, informazioa ondo egiaztatuko da; hori ateratzen ez bada,
 ---
 Gero, ditugun zenbaki bitar guztiak hartuko ditugu, gure emaitza ere jarriko dugu, formula hau erabiliz: **PSK(2)-ASK(2)-FSK(2)**.
 
-Grafikoak atera behar ditugu. Formulak adierazten digu 6 biteko grafikoak izan behar direla. PSK-k adierazten digu non hasten den hondoia, ASK-ek hondoak izan behar duen altuera eta FSK-k adierazten digu zenbat sakonune izan behar dituen.
+Grafikoak atera behar ditugu. Formulak adierazten digu 6 biteko grafikoak izan behar direla. Grafikoak atera behar ditugu. Formulak adierazten digu 6 biteko grafikoak izan behar direla. 
 
 Hori jakinda, gure kode bitarra lehenengo 6 bitak hartuz joango gara, gero hurrengoekin jarraituko dugu eta grafiko bat aterako dugu. Gure kasuan 62 bit ditugu eta ez digu zenbaki zehatzik emango grafikoentzat. Horregatik, azkenean 4 zero gehitu ditugu hori egin ahal izateko.
 
@@ -181,7 +181,7 @@ Bit bakoitzak trantsizio bat du erdian: 0a altutik baxura doa, eta 1a baxutik al
 
 ###  Manchester diferentziala
 
- Kasu horretan, bit bakoitzaren erdian beti dago trantsizio bat. Gainera, bita 0 bada, hasierako trantsizioa dago; 1 bada, ez dago hasierako trantsiziorik.
+0 bada, geziak norabide berdinarekin geratzen da, 1 bada, geziak norabidea aldatzen du.
 
 Grafikoarekin hasteko, maila baxua aukeratu dut.
 
@@ -191,15 +191,15 @@ Grafikoarekin hasteko, maila baxua aukeratu dut.
 
 ## 1.4 Routerra
 
-Lehenik eta behin, WiFi-a aktibatu behar dugu gure routerrean, eta izena eta pasahitza eman behar dizkiogu
+Lehenik eta behin, WiFi-a aktibatu dugu gure routerrean, eta izena eta pasahitza eman behar dizkiogu
+
+![Wfia](img/sareak/wifia.jpg)
+
+Gero, gure mugikorretik WiFi-ra konektatu gara, zerbitzaria piztu dugu, eta zerbitzaritik gure mugikorrera ping-a egin dugu. Halaber, gure mugikorretik, zerbitzarian dugun html ip-a jarriko dugu, errematatzeko
 
 
+![ping](img/sareak/ping.png)
 
-Gero, gure mugikorretik WiFi-ra konektatuko gara, zerbitzaria piztuko dugu, eta zerbitzaritik gure mugikorrera ping-a egiten saiatuko gara. Halaber, gure mugikorretik, zerbitzarian dugun html ip-a jarriko dugu, errematatzeko
-
-
-(img/sareak/html.jpg)
-
-(imagen)
+![mugikorra](img/sareak/html.jpg)
 
 
