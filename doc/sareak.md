@@ -154,7 +154,7 @@ Emaitza `0000000` bada, informazioa ondo egiaztatuko da; hori ateratzen ez bada,
 ---
 Gero, ditugun zenbaki bitar guztiak hartuko ditugu, gure emaitza ere jarriko dugu, formula hau erabiliz: **PSK(2)-ASK(2)-FSK(2)**.
 
-Grafikoak atera behar ditugu. Formulak adierazten digu 6 biteko grafikoak izan behar direla. Grafikoak atera behar ditugu. Formulak adierazten digu 6 biteko grafikoak izan behar direla. 
+Grafikoak atera behar ditugu. Formulak adierazten digu 6 biteko grafikoak izan behar direla. PSK-k hondoa non hasten den adierazten digu, ASK-k hondoak izan behar duen altuera eta FSK-k zenbat sakonune izan behar dituen adierazten digu.
 
 Hori jakinda, gure kode bitarra lehenengo 6 bitak hartuz joango gara, gero hurrengoekin jarraituko dugu eta grafiko bat aterako dugu. Gure kasuan 62 bit ditugu eta ez digu zenbaki zehatzik emango grafikoentzat. Horregatik, azkenean 4 zero gehitu ditugu hori egin ahal izateko.
 
@@ -200,15 +200,4 @@ Gero, gure mugikorretik WiFi-ra konektatu gara, zerbitzaria piztu dugu, eta zerb
 
 ![ping](img/sareak/ping.png)
 
-<<<<<<< HEAD
-Gero, gure mugikorretik WiFi-ra konektatuko gara, zerbitzaria piztuko dugu, eta zerbitzaritik gure mugikorrera ping-a egiten saiatuko gara. Halaber, gure mugikorretik, zerbitzarian dugun html ip-a jarriko dugu, errematatzeko
-
-
-   ![wifi](img/sareak/wifia.jpg)
-   ![wifi](img/sareak/ping.png)
-   ![wifi](img/sareak/html.jpg)
-=======
 ![mugikorra](img/sareak/html.jpg)
->>>>>>> d7214dc3e5fdeaa034e6371bd3162f917b210b22
-
-
