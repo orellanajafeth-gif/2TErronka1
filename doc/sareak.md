@@ -198,8 +198,8 @@ Lehenik eta behin, WiFi-a aktibatu behar dugu gure routerrean, eta izena eta pas
 Gero, gure mugikorretik WiFi-ra konektatuko gara, zerbitzaria piztuko dugu, eta zerbitzaritik gure mugikorrera ping-a egiten saiatuko gara. Halaber, gure mugikorretik, zerbitzarian dugun html ip-a jarriko dugu, errematatzeko
 
 
-(img/sareak/html.jpg)
-
-(imagen)
+   ![wifi](img/sareak/wifia.jpg)
+   ![wifi](img/sareak/ping.png)
+   ![wifi](img/sareak/html.jpg)
 
 
