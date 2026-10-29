@@ -201,3 +201,15 @@ Gero, gure mugikorretik WiFi-ra konektatu gara, zerbitzaria piztu dugu, eta zerb
 ![ping](img/sareak/ping.png)
 
 ![mugikorra](img/sareak/html.jpg)
+
+## 1.5 Sare diagrama
+
+Hau da gure sarea lucidchart-en marrastuta.
+
+![sare diagrama](img/sareak/SareDiagrama.jpg)
+
+## 1.6 Sarearen simulazioa
+
+Hau da gure sarearen egindako simulazioa cisco packet tracerren.
+
+![sarearen simulazioa](img/sareak/SareSimulazioa.jpg)
