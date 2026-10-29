@@ -86,3 +86,27 @@ Produkzio-sektorean, TGDak ekoizpen-prozesuak automatizatzeko, kalitate-kontrola
 TGDek ingurumenari mesede egin diezaiokete: paper gutxiago erabiltzea, energia modu eraginkorragoan kudeatzea, telelanaren bidez joan-etorriak murriztea eta ingurumen-datuak hobeto monitorizatzea ahalbidetzen dute.
 
 Aldi berean, gailu elektronikoen hondakinak, fabrikazioaren eta erabileraren karbono-aztarna, datu-zentroetako energia-kontsumoa eta gailuak ekoizteko baliabide naturalen erabilera handitu ditzakete. Horregatik, enpresek hondakinak kudeatu, karbono-aztarna murriztu eta baliabideak arduraz erabili behar dituzte.
+
+## 4. GitHub-en erabilera
+
+Erronka osoa garatzeko eta antolatzeko, GitHub erabili dugu. Tresna honen bidez, dokumentazioa sortu, enpresaren webgunea garatu eta lanaren planifikazioa egin dugu.
+
+### 4.1. Dokumentazioa
+
+Dokumentazioa Markdown (`.md`) formatuan sortu dugu. Formatu honek informazioa modu argi eta antolatuan idazteko aukera ematen digu. Dokumentazio-fitxategiak GitHub-eko biltegian gorde ditugu, proiektuaren informazio guztia leku berean izateko.
+
+### 4.2. Enpresaren webgunea
+
+GitHub erabili dugu enpresaren webgunea sortzeko eta haren fitxategiak biltegian gordetzeko. Horrela, webgunearen garapena eta proiektuaren gainerako fitxategiak batera antolatu ditugu.
+
+### 4.3. Lanaren planifikazioa
+
+Erronkako zereginak antolatzeko, GitHub-eko biltegiaren barruan Project berri bat sortu dugu, eta Kanban eredua erabili dugu.
+
+Kanban taularen bidez, zereginak hiru egoeratan banatu ditugu:
+
+- **Egin beharrekoak:** oraindik hasi ez diren zereginak.
+- **Egiten ari direnak:** une horretan lantzen ari garen zereginak.
+- **Eginda:** amaitutako zereginak.
+
+Antolaketa honi esker, zereginen egoera kontrolatu, lanaren jarraipena egin eta erronkaren garapena modu eraginkorragoan planifikatu dugu.
