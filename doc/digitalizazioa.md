@@ -97,7 +97,7 @@ Dokumentazioa Markdown (`.md`) formatuan sortu dugu. Formatu honek informazioa m
 
 ### 4.2. Enpresaren webgunea
 
-GitHub erabili dugu enpresaren webgunea sortzeko eta haren fitxategiak biltegian gordetzeko. Horrela, webgunearen garapena eta proiektuaren gainerako fitxategiak batera antolatu ditugu.
+GitHub erabili dugu enpresaren webgunea sortzeko eta haren fitxategiak biltegian gordetzeko.Enpresaren webgunea sortzeko, HTML eta CSS erabili ditugu. Horrela, webgunearen garapena eta proiektuaren gainerako fitxategiak batera antolatu ditugu.
 
 ### 4.3. Lanaren planifikazioa
 
