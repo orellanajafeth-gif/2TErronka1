@@ -213,33 +213,33 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 
 
 
-## 1. Taulak eta haien atributuak
+### 1. Taulak eta haien atributuak
 
-### 1.1. HARPIDETZA
+#### 1.1. HARPIDETZA
 - `ID_HARPIDETZA` — Gako nagusia.
 - `Hasiera_data` — Harpidetzaren hasiera-data.
 - `Amaiera_data` — Harpidetzaren amaiera-data.
 
-### 1.2. PLANA
+#### 1.2. PLANA
 - `ID_PLANA` — Gako nagusia.
 - `Mota` — Plan mota.
 
-### 1.3. ERABILTZAILEA
+#### 1.3. ERABILTZAILEA
 - `NAN` — Gako nagusia.
 - `Izena` — Erabiltzailearen izena.
 - `Abizena` — Erabiltzailearen abizena.
 - `Pasahitza` — Erabiltzailearen pasahitza.
 - `Email-a` — Erabiltzailearen helbide elektronikoa.
 
-### 1.4. PERFIL
+#### 1.4. PERFIL
 - `ID_PERFIL` — Gako nagusia.
 - `Mota` — Profil mota.
 
-### 1.5. IKUSI
+#### 1.5. IKUSI
 - `ID_IZENA` — Gako nagusia.
 - `Bistaratzea` — Edukiaren bistaratzearekin lotutako atributua.
 
-### 1.6. EDUKIAK
+#### 1.6. EDUKIAK
 - `ID_EDUKIAK` — Gako nagusia.
 - `Adin_sailkapena` — Edukiaren adin-sailkapena.
 - `Izenburua` — Edukiaren izenburua.
@@ -247,28 +247,28 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 - `Deskribapena` — Edukiaren deskribapena.
 - `Mota` — Eduki mota.
 
-### 1.7. PELIKULAK
+#### 1.7. PELIKULAK
 - `ID_EDUKIAK` — Gako nagusia (heredatua).
 - `Zuzendaria` — Filmaren zuzendaria.
 - `Iraupena_min` — Filmaren iraupena minututan.
 
-### 1.8. DOKU
+#### 1.8. DOKU
 - `ID_EDUKIAK` — Gako nagusia (heredatua).
 - `Gaia` — Dokumentalaren gaia.
 - `Iraupena_min` — Dokumentalaren iraupena minututan.
 
-### 1.9. SERIEAK
+#### 1.9. SERIEAK
 - `ID_EDUKIAK` — Gako nagusia (heredatua).
 
-### 1.10. DENBORALDIAK
+#### 1.10. DENBORALDIAK
 - `ID_DENBORALDIA` — Gako nagusia.
 - `Zenbakia` — Denboraldiaren zenbakia.
 
-### 1.11. KAPITULUAK
+#### 1.11. KAPITULUAK
 - `ID_KAPITULUA` — Gako nagusia.
 - `Izena` — Kapituluaren izena.
 
-## 2. Taulen gako nagusiak (PK) eta kanpo-gakoak (FK)
+### 2. Taulen gako nagusiak (PK) eta kanpo-gakoak (FK)
 
 - **Gako nagusia (PK):** taula bateko erregistro bakoitza modu bakarrean identifikatzeko erabiltzen da. Ezin du balio errepikaturik edo hutsik izan.
 - **Kanpo-gakoa (FK):** beste taula bateko gako nagusi batekin lotura ezartzeko erabiltzen da. Horri esker, datu-baseko taulen arteko erlazioak sortzen dira.
@@ -287,7 +287,7 @@ Datu-basea sortzeko, Microsoft Access erabili da. Programa honen bidez, taulak s
 | DENBORALDIAK | `ID_DENBORALDIA` | `ID_EDUKIAK` |
 | KAPITULUAK | `ID_KAPITULUA` | `ID_DENBORALDIA` |
 
-## 3. Taulen arteko erlazioak
+### 3. Taulen arteko erlazioak
 
 - **1:1:** taula bateko erregistro bakoitza besteko erregistro bakar batekin lotzen da.
 - **1:N:** taula bateko erregistro bat besteko hainbat erregistrotara lot daiteke.
